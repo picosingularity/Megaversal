@@ -4,3 +4,25 @@ body {
     text-align: center;
     color: aliceblue;
 }
+
+.page {
+    border: 5px solid black;
+    width: 1000px;
+    margin: 0;
+}
+
+.text {
+    /* border: 1px solid black; */
+    margin: 5px;
+    columns: 2;
+    text-align: left;
+    /* width: 96%; */
+}
+
+.img_full_page {
+    width: 100%;
+}
+
+.page {
+    display: flex;
+}

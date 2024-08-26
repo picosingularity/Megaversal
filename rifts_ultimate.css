@@ -118,6 +118,10 @@ ul {
     list-style-type: none;
 }
 
+ul.bulleted {
+list-style-type: disc;
+}
+
 ul.nav {
     list-style-type: none;
     margin: 0;

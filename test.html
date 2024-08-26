@@ -1,0 +1,871 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Test</title>
+    <style>
+        ul {
+            margin: 0 0 0 0;
+            list-style-type: none;
+        }
+
+        ul.nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #38444d;
+
+            
+        }
+
+        ul.nav li {
+            border-right: 1px solid #bbb;
+            display: inline-block;
+        }
+
+        ul.nav>li>a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.nav li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(150, 150, 150);
+        }
+
+        ul.nav li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: grey;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            overflow: scroll;
+            max-height: 30rem;
+        }
+
+        .dropdown-content a {
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            
+        }
+
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        li {
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: grey;
+            height: 100vh;
+            margin: 0;
+            padding: 0px;
+            
+        }
+
+        footer {
+            margin: 8px;
+            padding: 8px;
+        }
+
+        main {
+            overflow: scroll;
+            margin: 8px;
+            height: 100%;
+            padding: 8px;
+            background-color: white;
+        }
+
+        header {
+            margin: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+                <ul class="nav">
+                    <li><a href="rifts_ultimate_edition.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">ToC</a>
+                        <div class="dropdown-content">
+                            <a href="rifts_ultimate_the_setting.html"><span class="toc-title-h1">The Setting</span></a>
+                            <a href="rifts_ultimate_color_section.html"><span class="toc-title-h1">Color Section Depicting the
+                                    World</span></a>
+                            <a href="rifts_ultimate_the_characters.html"><span class="toc-title-h1">The Characters</span></a>
+                            <a href="rifts_ultimate_psionic_powers.html"><span class="toc-title-h1">Psionic Powers</span></a>
+                            <a href="rifts_ultimate_magic.html"><span class="toc-title-h1">Magic</span></a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Quick Find</a>
+                        <div class="dropdown-content">
+                            <a href="#"><span>Augmented Strength (Juicer) and Damage</span></a>
+                            <a href="#"><span>Black Market</span></a>
+                            <a href="#"><span>Black Market: Bionics</span></a>
+                            <a href="#"><span>Black Market: Coalition</span></a>
+                            <a href="#"><span>Black Market: Cyber-Knight (living)</span></a>
+                            <a href="#"><span>Black Market: Cyborg</span></a>
+                            <a href="#"><span>Black Market: General Types of</span></a>
+                            <a href="#"><span>Black Market: Ley Line Walker</span></a>
+                            <a href="#"><span>Bionics Description</span></a>
+                            <a href="#"><span>Bionics Ful Conversion Cyborg</span></a>
+                            <a href="#"><span>Bionics Partial Cyborg</span></a>
+                            <a href="#"><span>Bionics Cyborg (Augmented) and Robot Strength</span></a>
+                            <a href="#"><span>Bionics Weapons</span></a>
+                            <a href="#"><span>Boom Gun (see Glitter Boy)</span></a>
+                            <a href="#"><span>Calgary, Ruins of</span></a>
+                            <a href="#"><span>Chi-Town</span></a>
+                            <a href="#"><span>Coalition States</span></a>
+                            <a href="#"><span>Combat Cyborg</span></a>
+                            <a href="#"><span>Combat Rules (begin)</span></a>
+                            <a href="#"><span>Crazies</span></a>
+                            <a href="#"><span>Crazy, Insanities Specific to</span></a>
+                            <a href="#"><span>CS: Chi-Town</span></a>
+                            <a href="#"><span>CS: Dead Boy/Grunt O.C.C.</span></a>
+                            <a href="#"><span>CS: Dog Boy O.C.C.</span></a>
+                            <a href="#"><span>CS: Emperor Prosek</span></a>
+                            <a href="#"><span>CS: Identification Coding (IC)</span></a>
+                            <a href="#"><span>CS: Insignias (start)</span></a>
+                            <a href="#"><span>CS: Miltary O.C.C. (start)</span></a>
+                            <a href="#"><span>CS: Psi-Hound (see Dog Boy)</span></a>
+                            <a href="#"><span>CS: Psi-Stalker</span></a>
+                            <a href="#"><span>CS: Psychics and Registration</span></a>
+                            <a href="#"><span>CS: Technology</span></a>
+                            <a href="#"><span>CS: SAMAS Power Armor</span></a>
+                            <a href="#"><span>CS: Skelebot</span></a>
+                            <a href="#"><span>CS: Spider-Skull Walker </span></a>
+                            <a href="#"><span>CS: Town Meeting (Arkansas/El Dorado)</span></a>
+                            <a href="#"><span>CS: UAR-1 Enforcer Robot</span></a>
+                            <a href="#"><span>Cyber-Knight</span></a>
+                            <a href="#"><span>Cyborg: Bionics Description</span></a>
+                            <a href="#"><span>Cyborg: Body Armor</span></a>
+                            <a href="#"><span>Cyborg: Combat 'Borg (Full Bionic Conversion)</span></a>
+                            <a href="#"><span>Cyborg: Headhunter (Partial Bionic Reconstruction)</span></a>
+                            <a href="#"><span>Dead Boy O.C.C. (see Coaltition Grunt)</span></a>
+                            <a href="#"><span>Demons, Controling (see Shifter)</span></a>
+                            <a href="#"><span>Devil's Gate</span></a>
+                            <a href="#"><span>Dinosaur Swamp</span></a>
+                            <a href="#"><span>Dog Boy O.C.C.</span></a>
+                            <a href="#"><span>Dragons</span></a>
+                            <a href="#"><span>Dragon Hand to Hand Combat</span></a>
+                            <a href="#"><span>Dragon Hatchlings</span></a>
+                            <a href="#"><span>El Dorado</span></a>
+                            <a href="#"><span>Elemental Fusionist</span></a>
+                            <a href="#"><span>Emperor Prosek</span></a>
+                            <a href="#"><span>Equipment (Basic)</span></a>
+                            <a href="#"><span>Experience Tables</span></a>
+                            <a href="#"><span>Federation of Magic</span></a>
+                            <a href="#"><span>Fusion Block (CS Explosives)</span></a>
+                            <a href="#"><span>Glitter Boy</span></a>
+                            <a href="#"><span>Glitter Boy History</span></a>
+                            <a href="#"><span>Glitter Boy Power Armor</span></a>
+                            <a href="#"><span>Golden Age Weapon Smith</span></a>
+                            <a href="#"><span>Hand to Hand Combat Tables</span></a>
+                            <a href="#"><span>Hand to Hand Combat: Cyber-Knight Zen Combat</span></a>
+                            <a href="#"><span>Hand Grenades (CS Explosives)</span></a>
+                            <a href="#"><span>Insanity Table Start</span></a>
+                            <a href="#"><span>Juicer</span></a>
+                            <a href="#"><span>Juicer Detox</span></a>
+                            <a href="#"><span>Kingsdale</span></a>
+                            <a href="#"><span>Lazlo</span></a>
+                            <a href="#"><span>Ley Lines and P.P.E. (Other Sources of P.P.E.)</span></a>
+                            <a href="#"><span>Ley Lines and Rifts</span></a>
+                            <a href="#"><span>Ley Line Storms</span></a>
+                            <a href="#"><span>Lone Star</span></a>
+                            <a href="#"><span>Magic, Principles of</span></a>
+                            <a href="#"><span>Magic Combat</span></a>
+                            <a href="#"><span>Magic Devices, Create (see Techno-Wizard)</span></a>
+                            <a href="#"><span>Magic O.C.C.s Start</span></a>
+                            <a href="#"><span>Magic P.P.E. Recovery & Other Sources</span></a>
+                            <a href="#"><span>Magic. Pursuit of</span></a>
+                            <a href="#"><span>Magic Saving Throws</span></a>
+                            <a href="#"><span>Magic, Spell Learning (see Pursuit of Magic)</span></a>
+                            <a href="#"><span>Magic, Impairment by Tech</span></a>
+                            <a href="#"><span>Magic Terms</span></a>
+                            <a href="#"><span>Mere Soldier</span></a>
+                            <a href="#"><span>Mutant Canine (see Dog Boy)</span></a>
+                            <a href="#"><span>Mutant Humans (see Psi-Stalker)</span></a>
+                            <a href="#"><span>O.C.C. List</span></a>
+                            <a href="#"><span>Old Bones ruins of old Quebcc City</span></a>
+                            <a href="#"><span>Old Chicago. Ruins of</span></a>
+                            <a href="#"><span>Old Detroit</span></a>
+                            <a href="#"><span>Magic Zone</span></a>
+                            <a href="#"><span>Mini-Missiles</span></a>
+                            <a href="#"><span>Missile Stats & Prices</span></a>
+                            <a href="#"><span>M.O.M. (See Crazy O.C.C.)</span></a>
+                            <a href="#"><span>M.O.M. Size of implants</span></a>
+                            <a href="#"><span>Naruni Enterprises</span></a>
+                            <a href="#"><span>New Lazlo (Southern Michigan Overview)</span></a>
+                            <a href="#"><span>Northern Gun (Northern Michigan Overview)</span></a>
+                            <a href="#"><span>Northern Gun Weapons</span></a>
+                            <a href="#"><span>Pact of Servitude (sec Shifter)</span></a>
+                            <a href="#"><span>Partial Cyborg (see Headhunter)</span></a>
+                            <a href="#"><span>P.P.E. Drawn from Ley Lines</span></a>
+                            <a href="#"><span>Power Armor: Comhat Tables</span></a>
+                            <a href="#"><span>Power Armor: Flying Titan Power Armor</span></a>
+                            <a href="#"><span>Power Armor: Glitter Boy</span></a>
+                            <a href="#"><span>Power Armor: SAMAS (CS)</span></a>
+                            <a href="#"><span>Power Armor: Samson (NG)</span></a>
+                            <a href="#"><span>Psion1c Power Descriptions</span></a>
+                            <a href="#"><span>Psyonics Cyber-Knight</span></a>
+                            <a href="#"><span>Rifts, Tam's description of one opening</span></a>
+                            <a href="#"><span>Rifts Random Tables start on</span></a>
+                            <a href="#"><span>Robot Combat Elite Tables Begin</span></a>
+                            <a href="#"><span>Robot Hit Location Tables (optional)</span></a>
+                            <a href="#"><span>Robot Vehicle Spider-Skull Walker (CS)</span></a>
+                            <a href="#"><span>Robot Vehicle: UAR-I Enforcer (CS)</span></a>
+                            <a href="#"><span>Robot Vehicle: Titan Combat Robot</span></a>
+                            <a href="#"><span>Skelebots</span></a>
+                            <a href="#"><span>Skill Descriptions (begin)</span></a>
+                            <a href="#"><span>Skill List</span></a>
+                            <a href="#"><span>Supernatural Strength & Damage</span></a>
+                            <a href="#"><span>Tarn: Chi-Town</span></a>
+                            <a href="#"><span>Tarn: Coming of the Rifts</span></a>
+                            <a href="#"><span>Tarn: Criminal or Heroic Visionary</span></a>
+                            <a href="#"><span>Tarn: CS-Tolkeen War</span></a>
+                            <a href="#"><span>Tarn: Cyber-Knights</span></a>
+                            <a href="#"><span>Tarn: Coalition States</span></a>
+                            <a href="#"><span>Tarn: Dimensional Rifts</span></a>
+                            <a href="#"><span>Tarn: Federation of Magic</span></a>
+                            <a href="#"><span>Tarn: Glitter Boys</span></a>
+                            <a href="#"><span>Tarn: Golden Age of Man</span></a>
+                            <a href="#"><span>Tarn: Lone Star Complex</span></a>
+                            <a href="#"><span>Tarn: Manistique lmperium/Wellington</span></a>
+                            <a href="#"><span>Tarn: Neemans, tales of</span></a>
+                            <a href="#"><span>Tarn: New West</span></a>
+                            <a href="#"><span>Tarn: Northern Gun</span></a>
+                            <a href="#"><span>Tarn: Savage Wilderness, The</span></a>
+                            <a href="#"><span>Tarn: Two Hundred Years Dark Age</span></a>
+                            <a href="#"><span>Tarn: Travcrs111g Our Modem World</span></a>
+                            <a href="#"><span>Tarn: Vampire Kingdoms</span></a>
+                            <a href="#"><span>Tarn: Villages</span></a>
+                            <a href="#"><span>Tarn: World Overview</span></a>
+                            <a href="#"><span>Tarn: Xiticix</span></a>
+                            <a href="#"><span>Tear Gas Grenade (CS Explosives)</span></a>
+                            <a href="#"><span>Techno-Wizard O.C.C.</span></a>
+                            <a href="#"><span>Techno-Wizard Construction Rules</span></a>
+                            <a href="#"><span>Techno-Wizard Gem Charts</span></a>
+                            <a href="#"><span>Techno-Wizard Weapons</span></a>
+                            <a href="#"><span>Titan Industries</span></a>
+                            <a href="#"><span>Tolkeen (see Minnesota Overview)</span></a>
+                            <a href="#"><span>Vampire Kingdoms</span></a>
+                            <a href="#"><span>Vehicles</span></a>
+                            <a href="#"><span>Vibro-Blades</span></a>
+                            <a href="#"><span>Weapons: Coalition</span></a>
+                            <a href="#"><span>Weapons: Common Types</span></a>
+                            <a href="#"><span>Weapons: Explosives & Grenades</span></a>
+                            <a href="#"><span>Weapons: How M.D. Weapons Work</span></a>
+                            <a href="#"><span>Weapons: Missiles</span></a>
+                            <a href="#"><span>Weapons: Surviving M.D. Damage</span></a>
+                            <a href="#"><span>Weapons: Vibro-Blades</span></a>
+                            <a href="#"><span>Whykin</span></a>
+                            <a href="#"><span>Wilk's Laser Technology</span></a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">O.C.C.</a>
+                        <div class="dropdown-content">
+                            <a href="#"><span class="toc-title-h3">O.C.C. Experience Tables</span></a>
+                            <a href="#"><span class="toc-title-h1">Adventurers & Scholars</span></a>
+                            <a href="#"><span class="toc-title-h3">Body Fixer O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">City Rat O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Cyber-Doc O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Operator O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Rogue Scholar O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Rogue Scientist O C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Vagabond O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Wilderness Scout O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h1">Coalition O.C.C.s/NPCs</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition Dog Boy O C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition Grunt/Solider</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition Military Specialist O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition Psi-Stalker O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition SAMAS Pilot O C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Coalition Technical Officer O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h1">Men at Arms O.C.C.s</span></a>
+                            <a href="#"><span class="toc-title-h3">Combat Cyborg O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Crazies O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Cyber-Knight O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Glitter Boy O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Headhunter O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Juicer O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Mere Soldier O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Robot Pilot O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h1">Practitioners of Magic</span></a>
+                            <a href="#"><span class="toc-title-h3">Elemental Fusionist O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Ley Line Walker O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Ley Line Rifter O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Mystic O C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Shifter O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Techno-Wizard</span></a>
+                            <a href="#"><span class="toc-title-h1">Psychic Characters</span></a>
+                            <a href="#"><span class="toc-title-h3">Burster O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Mind Melter O.C.C.</span></a>
+                            <a href="#"><span class="toc-title-h3">Psi-Operator (optional)</span></a>
+                            <a href="#"><span class="toc-title-h3">Psi-Stalker, Civilized/Coalition</span></a>
+                            <a href="#"><span class="toc-title-h3">Psi-Stalker, Wild</span></a>
+                            <a href="#"><span class="toc-title-h1"><b>Note:</b></span></a>
+                            <a href="#"><span class="toc-title-h3">The Cyber-Knight has some psionics</span></a>
+                            <a href="#"><span class="toc-title-h3">The Techno-Wi:::ard has some psionics</span></a>
+                            <a href="#"><span class="toc-title-h3">The Mystic possesses psionics & magic</span></a>
+                            <a href="#"><span class="toc-title-h3">The Dragon Hatchling has psionics & magic</span></a>
+                            <a href="#"><span class="toc-title-h1">Racial Character Class</span></a>
+                            <a href="#"><span class="toc-title-h3">Dragon Hatchling R.C.C.</span></a>
+                        </div>
+                    </li>
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#">Bot</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    
+
+<main>
+    <div>
+        <h2 id="the_priciples_of_magic">The Principles of Magic</h2>
+        <p>The mastery of magic really is more of an art than a science, because it is controlled, focused and
+            manifested by the mind. Although the methods of casting magic have basic methodologies and principles
+            behind them with results that can be replicated time and again, each sorcerer puts his own little touch
+            on the magic. Thus, while a Fire Ball is a Fire Ball, not all Fire Balls are equal nor look identical.
+            Each is shaped and tuned, if ever so slightly (and in some cases, not so slightly), hy the person
+            creating it.</p>
+        <!--<p>The reason All magic, at least in part, is a physical representation of the practitioner's own mind,
+            spirit and force of will. That's also what makes magic and spell casting so easy for some people
+            (natural born wizards?) and impossible (unable to focus their will) for others.</p>
+        <p>The basic concepts behind magic are simple.</p>
+        <h3 id="step_1_belief">Step 1: Belief</h3>
+        <p>The first step is believing that magic is real and that one can master the knowledge and will to control
+            it. The character must see magic as an innate energy, a resource and a tool to be tapped and used, not
+            to be feared. He must also accept this energy can only be captured, held and shaped by the mind. There
+            is no machine or device that can mine it like oil or natural gas, the depths of magic can only be
+            plumbed by the mind. That's why it remained unknown and incomprehensible to pre-Rifts men of science.
+            After the Coming of the Rifts, with the ley lines aglow and dragons and demons calling upon its energy,
+            even the narrow mind of humans was forced to believe magic was real.</p>
+        <h3 id="step_2_conviction">Step 2: Conviction</h3>
+        <p>Belief is not enough. Everyone on Rifts Earth knows magic is real. Even Emperor Prosek believes that, but
+            he can't cast magic spells.</p>
+        <p>The next step is belief in yourself. Belief that you are mentally strong enough and able to focus your
+            will to grab the elusive energy by the tail and force it (no, massage and shape it like a sculptor
+            working clay) to do what you want it to do. This must be 100% conviction. Any nuance of doubt will
+            destroy any chance of learning magic.</p>
+        <p>Theoretically, anybody can learn magic; however, it is an extremely difficult process that proves to be
+            impossible for most people. The young student of magic must learn to focus his thoughts and imagination
+            to command the energy all around and within him. More than that, being a practitioner of magic is a way
+            of life, and the student must embrace that life with every fiber of his being.</p>
+        <h3 id="step_3_choose_a_mystic_art">Step 3: Choose a Mystic Art</h3>
+        <p>Finding one's focus means to pick a mystical craft that fits the way his mind thinks. The magic
+            disciplines presented in this book are the spell casting <i>Ley Line Walker</i>, the Rift manipulating
+            <i>Ley Line Rifler</i>, the natural <i>Mystic</i>, the instinctual <i>Elemental Fusionist</i>, the
+            summoning and dominating <i>Shifter</i>, and the tinkering inventor/builder,<i>the Techno-Wizard</i>.
+            Other forms of magic like Necromancy, Temporal Magic, Cloud Magic, Ocean Magic, and others, exist, but
+            these are the most popular, powerful and practiced around the world, but especially in North America.
+        </p>
+        <h3 id="step_4_building_p.p.e.">Step 4: Building P.P.E.</h3>
+        <p>Magic is an energy that can be controlled and manipulated by the humanoid mind and force of will. It is a
+            fabulous power that can calm a storm, call lightning, heal the injured, turn people invisible, open
+            doors to other worlds and much, much more. It seems to be an inexhaustible energy source that
+            continually renews itself and can grow inside you. A force of nature that can be harnessed by a single
+            individual.</p>
+        <h4 id="individual_p.p.e._reserve">Individual P.P.E. Reserve</h4>
+        <p>Every person has some amount of Potential Psychic Energy (P.P.E.). Most humans and D-Bees have very
+            little, because they have unwittingly spent their P.P.E. on occupational skills, hobbies and other
+            interests.</p>
+        <p><b>Permanent P.P.E. Base.</b>The practitioner of magic learns to nurture and hold P.P.E. inside of him,
+            becoming a living battery or receptacle of magic energy. The typical mage will have 10 to 50 times more
+            P.P.E. energy than the average person. This energy can be drawn upon at will, much like the psychic who
+            draws upon their inner strength (1.S.P.), only instead of bringing a psychic ability into play, the mage
+            uses the energy to work his magic. <b><b>Note:</b></b>Each specific Magic O.C.C. will indicate how much
+            P.P.E.
+            the character starts with as his permanent P.P.E. Base, and how much is added to that base with each new
+            level of advancement. Each amount as per O.C.C. indicates the level of study, mastery and focus for that
+            O.C.C.</p>
+        <p><b>Each magic spell invocation</b>or ritual requires a certain amount of P.P.E. to perform it. Each spell
+            description indicates how many P.P.E. points are needed to create that particular magic effect.</p>
+        <p><b>P.P.E. spell costs</b>range from as little as one point to as much as 2000. The most expensive spells
+            tend to have the most spectacular effects. but it is actually the less expensive spells that are the
+            most practical and helpful in everyday life, staying alive and combat. The practitioner of magic should
+            be able to summon forth his own impressive amount of P.P.E. to cast most spells.</p>
+        <p><b>Recovery of P.P.E.</b> Like psionic I.S.P., the loss of P.P.E. points is <i>temporary</i>and they
+            will replenish themselves naturally at the rate of about five points for every hour of rest or sleep (or
+            as
+            indicated under the specific O.C.C.)</p>
+        <p><b>Meditation</b>is a skill known and practiced by all practitioners of magic. It 1s used to focus one's
+            concentration and to relax and open oneself to mystic forces. A meditative state will restore expended
+            P.P.E. at a rate of 10 per hour (or as indicated by the specific O.C.C.) and every hour of meditation is
+            equal to one hour of relaxing, restorative sleep. Note that meditation cannot give the mage more P.P.E.
+            than the character normally possesses. That's his <i>Permanent P.P.E. Base.</i></p>
+        <h4 id="other_sources_of_p.p.e.">Other Sources of P.P.E.</h4>
+        <p>Most practitioners of magic can also draw P.P.E. from sources other than themselves. The Ley lines are
+            the obvious one, but also from magic artifacts and other living beings.</p>
+        <p><b>Drawing P.P.E. from magic artifacts.</b> There are some magic artifacts that act as a portable P.P.E.
+            battery
+            from which a mage can draw additional magic energy. These items are uncommon, but immediately recognized
+            by practitioners of magic who can usually sense (and in the case of the Ley Line Walker, see) the magic
+            energy contained within them.</p>
+        <p><b>Drawing P.P.E. from other living beings.</b> Every living creature has P.P.E., even if it is only a
+            few
+            points. A practitioner of magic can tap that energy in a variety of ways.</p>
+        <p><u>1. Freely Given P.P.E.</u> The P.P.E. is offered with the character's knowledge and consent, enabling
+            the
+            mage to absorb 70% of the P.P.E. offered by each person within a 20 foot (6.1 m) radius. The donated
+            P.P.1-:. may be used all at once, or parceled out to a number of different spell. There is no limit to
+            the number of people who can join in an offer of their energy. and if they are all focused via a ritual,
+            the mage can draw on them all instead of those within only a 20 foot (6.1 m) radius of him. This is the
+            basic purpose behind cults, covens and ritual magic, to get everyone focused on the same goal and
+            willing their P.P.E. to the master of ceremonies.</p>
+        <p><b>Note:</b> <i>Drawing PP E. from an unwilling subject is difficult. </i>The unwilling participant must
+            first
+            be made aware of the mage's intentions, then the unwilling character gets to make a saving throw vs
+            magic with a bonus of +4 to save. If he saves, none of his P.P.E. can be collected; if he fails to save,
+            only 1% can be drained because he's fighting the process every step of the way. It doesn't matter why
+            the character resists. only that he does.</p>
+        <p>It is impossible to draw P.l'.E. from an unwilling practitioner of magic. These men and women of magic
+            are too attuned to, and in control of, their magic energies for it to be plundered by others. Of course,
+            they can willingly give their P.P.E. away or have it taken in a blood sacrifice.</p>
+        <p><u>2. Blood Sacrifice.</u> The most terrible method of extracting P.P.E. from a living creature is by
+            killing
+            it. This is where animal and human sacrifices come into play. For reasons unknown, a living being's
+            P.P.E. doubles at the moment of death. An evil mage takes advantage of this by murdering his subject and
+            absorbing <i>all </i>the victim's doubled P.P.E. at the moment of death. He must use this extra energy
+            within the next six minutes per level of the mage, because after that time, the stolen P.P.E. rapidly
+            leaks away at a rate of 1DI0xl0 per minute. Only animals of a certain size have enough
+            P.P.E. to make their sacrifice worthwhile. Cat to small-dog sized: 2D6 P.P.E., medium to large dogs: 3D6
+            P.P.E.. cattle (cow, ox, sheep, goat, etc.): 4D6 P.P.E., and certain animals like horses and apes have
+            5D6 P.P.E. Tiny animals, smaller than a cat, have so little P.P.E. that it
+            does not even register as more than a fraction of a single point, making them useless.</p>
+        <p>Most characters of Principled and Scrupulous alignments will <i>NEVER </i>even consider animal
+            sacrifices. <b>Note:</b> Only characters of an evil alignment will consider the sacrifice of a human or
+            any intelligent life form as a viable means of acquiring extra P.P.E. However, selfish characters may
+            consider animal sacrifices and any alignment may be able to justify a blood sacrifice for the greater
+            good of others (i.e., sacrifices a volunteer to work some great good or to save the lives of many, or
+            justify killing an enemy and using his P.P.E. to work some beneficial magic, etc.).</p>
+        <p><b>Ley Lines &amp; Nexus Points.</b> Ley lines are energy conduits tied to Earth energy. A matrix
+            of natural Potential Psychic Energy that runs in <i>straight lines </i>at locations across the globe.
+            The source of the energy is unknown and apparently inexhaustible. At places where two or more ley lines
+            cross - nexus points - the energy is at its greatest. These P.P.E. intersections are where Rifts can be
+            opened.</p>
+        <p>In the world of Rifts Earth the ley line energy is at an all-time high and offers a seemingly endless
+            source of mystic power for the taking. Practitioners of magic, supernatural creatures, and demons can
+            stand on or near a ley line and freely feed on its energy to cast magic as well as <i>enhance </i>their
+            magic.</p>
+        <p><u>Available P.P.E. at Ley Lines:</u> Most magic O.C.C.s can draw 10 P.P.E. once every melee round from a
+            ley line and 20 P.P.E. from a nexus point (a Ley Line Walker and Ley
+            Line Rifler can draw double: 20 from a ley line, 40 from a Nexus). <b>Note:</b> To access the energy the
+            character must be standing in the ley line or at the nexus point. Remember, even the thinnest ley line
+            will be at least a few hundred yards/meters wide; most are a mile (1.6 km) wide.</p>
+        <p>The following increased levels of P.P.E. are available at a ley line <i>nexus</i> at special times.</p>
+        <ul>
+            <li>Double the available P.P.E. for the first 1D4 minutes at <i>dawn</i> (as the sun peeks over the
+                horizon), <i>midday</i> (noon) and <i>midnight.</i>
+            </li>
+            <li>Triple the available P.P.E. during the daylight hours of the <i>Vernal (Spring) Equinox</i> and the
+                night hours of the <i>Autumnal Equinox.</i>
+            </li>
+            <li><i>Summer Solstice </i>(June 21st) and <i>Winter Solstice </i>(December 21st) multiple the normally
+                available amount of P.P.E. by x10 from dawn till dusk.
+            </li>
+            <li>Lunar Eclipse x12. A lunar eclipse happens about once a year. Extra P.P.E. is available for 90
+                minutes. WARNING: There is a 01-77% likelihood that a random Rift will appear.
+            </li>
+            <li><i>Partial Solar Eclipse </i>x30! A partial solar eclipse happens about once every 10 years. P.P.E.
+                is available for only 2D4 minutes. WARNING: There is a 01-88% likelihood that a random Rift will
+                appear.
+            </li>
+            <li><i>Minor Planetary Alignment.</i> Three or four planets, x10, same as the Solstice, and the P.P.E.
+                is available for 15 minutes starting from the point they all first line up. This occurs about once
+                every 8 years.
+            </li>
+            <li><i>Major Planetary Alignment. </i>Five or more, x30, same as the Partial Solar Eclipse, and the
+                P.P.E. is available for 8 minutes starting from the point they all first line up. This occurs about
+                once every 22 years.
+            </li>
+        </ul>
+        <h3 id="step_5_understanding_magic">Step 5: Understanding Magic </h3>
+        <p>There are four major categories of magic: Spells (spoken), rituals (performed), summoning (either), and
+            special O.C.C. powers (exclusive abilities).</p>
+        <p><b>Spell magic</b> requires spoken incantations and hand gestures that serve as a focus to cast magic.
+            The Base
+            Saving Throw against spell magic is 12. As a mage increases in experience levels he receives bonuses
+            that increase his Spell Strength. For example: The spell of a second level Mystic has a+ I added to his
+            Spell Strength. This means his magic is now more potent and victims of his mystic assault must roll a 13
+            or higher, instead of the base 12, to save.</p>
+        <p><b>Ritual ceremonial magic</b> usually applies to the higher level spell invocations (seventh level
+            and higher). The more powerful the magic, the more it costs in P.P.E. The value of a ritual is that it
+            enables the mage to willingly draw P.P.E. from the ritual participants and/or end the ceremony with a
+            ritual killing and use the combined P.P.E. (amount given freely plus doubled P.P.E. of the sacrifice) as
+            well as his own P.P.E. (or not) to perform powerful (costly) magic. If more P.P.E. is needed then the
+            ritual may be performed at a ley line nexus or at a point when the nexus surges with energy.</p>
+        <p>Rituals frequently require props, components, and the drawing of a circle, triangle or pentagram. Any
+            spell incantation from level seven and higher can be cast as a <i>ritual. </i>Spells from levels 1-6 are
+            seldom made into rituals. Spells level 7-10 require ten minutes of ritualizing to cast, invocations
+            levels 11-15 level take 1D4x10 +15 minutes to complete as a ritual, but in <i>all </i>cases ritual
+            magic is much more potent, requiring the victims or targets of the magic attack to roll 16 or higher to
+            save vs magic. (Rare Spells of Legend require 1D6x10+30 minutes to perform as a ritual.) </p>
+        <p><b>Summoning Magic.</b> Summoning magic can be spell or ritual, but often requires a formal ceremony to
+            summon
+            something or to create a supernatural force such as a Zombie, Mummy, Golem, etc. Invocations involving
+            controlling or dominating other intelligent beings <i>always </i>provide the victims a saving throw
+            (save vs magic)- 12 to 14 against most spell casters such as the Ley Line Walker and Mystic, 16 to save
+            vs ritual magic.</p>
+        <p><i>The Shifter</i> is a summoning specialist, but any mage with the right knowledge can perform a
+            summoning. The
+            physical act of summoning/ making contact in a summoning spell is always successful. It is controlling
+            the creature and making it do one's bidding that is the tricky part. Summoning magic is used by
+            predominately evil and Anarchist practitioners of magic.</p>
+        <p><b>O.C.C. Powers.</b> Each Magic O.C.C. has a handful of Special O.C.C. Abilities &amp; Bonuses. These
+            are special areas of knowledge and ability that arise out of that
+            practitioner's occupational specialty and are usually exclusive to that O.C.C. only. Only the <i>Ley
+                Line Walker </i>(and the variant <i>Ley Line
+                Rifler) </i>can teleport along a ley line without expending P.P.E.</p>
+        <h4 id="magic_terms">Magic Terms</h4>
+        <p><b>Area Effect Magic.</b> Incantations that affect everyone in a given area or radius of effect. A spell
+            with a 15 foot (4.6 m)
+            radius affects <i>everyone </i>within the circle of its power and that usually includes anyone who
+            enters the area <i>after </i>the magic has been cast. Step into the area, and wham, you're under its
+            spell. Manage to make your way out of its radius of effect and you are free of the enchantment. Those
+            just outside the area are not affected unless they step into it. In most cases, once the spell is cast
+            and the area of effect is established it can NOT be moved.</p>
+        <p><b>Duration:</b> How long the spell lasts. Some are instant, like Call Lightning; others, like Charm, or
+            Fly
+            Like the Eagle, or Armor of Ithan, last for a period of time.</p>
+        <p><b>Level of Experience/Spell Caster.</b> This term refers to the experience level of the person who is
+            casting
+            the magic. This is a very important distinction, particularly in a combat situation, because the higher
+            the experience level of the spell caster, the more powerful the spell. Many invocations will indicate
+            something like "Duration: 5 melees per level of experience." or "1D6 M.D. per level of the spell
+            caster." and so on. <b>This means</b> that a <i>third level mage</i> with a spell duration of 4 melees
+            <i>per level</i> of experience can maintain the
+            spell's effects for a maximum duration of <i>12 melee rounds</i> (15 seconds per melee round, for 180
+            seconds or about three minutes).
+        </p>
+        <p><b>Line of Sight.</b> This means the spell caster must be able to <i>see </i>the person or target area he
+            hopes
+            to affect with his magic. The target/victim must be within his line of vision. If the target is not
+            seen, is totally obscured by obstacles, darkness, invisibility, or just not visible (around the corner,
+            out of visual range, etc.), the spell caster cannot cast his spell on him. Only an area effect spell can
+            be cast to blanket an area and affect everyone within that area whether they are seen or not. Of course,
+            potential victims of magic usually get to make a <i>saving throw. </i>A successful <i>save </i>mean no
+            effect or a reduced effect from the magic.</p>
+        <p><b>Range.</b> Indicates the maximum distance the magic can be cast; X number of feet, touch, or radius
+            (area of
+            spell effect). "Range: Self' means the magic works only on the spell caster.</p>
+        <p><b>Touch.</b> Means the magic's effects can only be transmitted through physical contact; flesh to flesh
+            or
+            flesh or through gloves and fabric, but not through sealed, environmental M.D.C. body armor or armored
+            vehicles (unless the magic is meant to effect the armor).</p>
+        <p><b>Spell Strength.</b> The base strength/attack for spell magic is 12. This is the number the victim of
+            magic
+            needs to roll on a D20 to save against magic. This number is higher when a spell is cast by a more
+            powerful practitioner of magic; typical range is 13-15. Each Magic O.C.C. will indicate at what levels
+            of experience a mage may increase his Spell Strength.</p>
+        <p>Base Save vs Ritual Magic is 16. No Spell Strength bonuses usually apply to rituals, a potential victim
+            of ritual magic always needs to roll a 16 or higher to escape its enchantment.</p>
+        <h4 id="saving_throw_vs_magic">Saving Throw vs Magic</h4>
+        <p>In many cases, when magic is used to attack or influence somebody, that character (or any living
+            creature, including animals) automatically gets a <i>saving throw.</i> (Animals are -4 to save.)</p>
+        <p>A <i>saving throw</i> is like a mental or magical <i>parry</i> to fight off/block the influence of magic.
+        </p>
+        <p><b>A successful saving throw</b> against magic means the magic has no (or a reduced) effect on that
+            character.</p>
+        <p><b>A failed roll</b> to "save vs magic" means the magic has full effect on the victim.</p>
+        <p>Physical magic assaults, such as Cloud of Smoke, Energy Bolt, Fire Bolt, objects hurled by Telekinesis,
+            and similar attacks in which a visible, real, physical force is being used, can NOT be avoided by
+            rolling a saving throw, but the character can (usually, not always) attempt to dodge out of the way. The
+            spell description will indicate if a character can roll to save, dodge, or is automatically struck with
+            no chance to do either (a rarity, but there are a few, like Call Lightning). Of course, <b>Animals</b>
+            are
+            -4 to save.</p>
+        <p><b>To save against a magic attack</b>, the player rolls a 20-sided die and must match or better the magic
+            attack. Defenders always win ties. Against spells. that save will range between 12-15 depending on the
+            level of the attacker, with 12, 13, and 14 being the most common number to save against. To save
+            against a magic ritual, a 16 or higher is necessary.</p>
+        <h4 id="canceling_magic">Canceling Magic</h4>
+        <p>The spell caster/creator of the magic can cancel/stop its effect or intlucnce instantly at any time.
+            Likewise, the magic-weaver does not have to create the magic for its full duration, but can impose any
+            amount of time, as long as it does not
+            exceed the maximum possible duration. !'he same is true of damage. The spell caster may intentionally
+            reduce the amount of damage a spell inflicts, but the player must announce this intention, otherwise it
+            is assumed the FULL damage (or duration) is used.</p>
+        <p><b>Interrupting a spell caster</b>, preventing him from completing the spell. will force the mage to stop
+            and
+            start again, from the beginning. No Potential Psychic Energy is lost, so the spell caster can stop
+            reciting a spell in mid-incantation without expending P.P.E. or causing any side effect.</p>
+        <p><b>Ritual/ceremonial magic</b>, although more powerful, is also more fragile. An interruption of the
+            ritual that lasts for more than 30 seconds (preventing the ritual from continuing) will ruin the
+            ceremony, as well as cause 30% of the total available P.P.E. that may have already been collected to
+            leak away unused. for more than 30 seconds will have the same effect. Incapacitating the other
+            participating members/cultists (rendering them unconscious, pulling them away, etc. ) will only reduce
+            the amount of available Potential Psychic Energy (basically they aren't present to give their P.P. E. to
+            the mage conducting the ritual). If the amount of available P.P.E. is reduced to below the invocation's
+            requirement, the ritual can NOT be finished.</p>
+        <p><b>The Negate Magic</b> spell or ritual can also be used to cancel/stop the e ffects of long lasting
+            magic.</p>
+        <h4 id="technological_effects_on_magic">Technological Effects on Magic</h4>
+        <p>It is important to point out that unlike the CS who completely rejects magic in all its forms, few
+            practitioners of magic dismiss technology out of hand. While it is true most rely heavily on their magic
+            powers and natural abilities, most human and D-Bee sorcerers also use technology. Energy weapons,
+            Vibro-Blades, portable computers, recorders, cameras, robot medical systems, language translators, radio
+            communicators, optic systems (binoculars, etc.), partial M.D.C. body armor, light vehicles, air filters,
+            and goggles are all commonly part of the magic characters' gear and equipment.</p>
+        <p>Bionics, with the exception of select in case of serious injury, cybernetic implants, and the wearing of
+            environmental body armor (except for disguise) are avoided like the plague, but only because they
+            interfere with spell casting and the use of magic.</p>
+        <p><b>Bionics and cybernetic implants</b> will reduce the character's P.P.E. by half and prevent his ability
+            to draw on P.P.E. from other sources, including blood sacrifices and ley lines! Likewise, all forms of
+            magical healing are reduced by half. Furthermore, magical regeneration will heal the body and reject the
+            bionics, expelling them from the body, unless it is a bio-system made of flesh and blood. Beings with
+            natural bioregenerative powers, which include most creatures of magic, spirits, demons and gods, can not
+            use bionics
+            or implants at all. Such foreign objects are immediately attacked and expelled from their bodies. In
+            most cases, they can not even be implanted to begin with because their bodies heal so quickly.</p>
+        <p><b>Wearing Body armor</b>, from a full suit of medieval chain or plate armor to modern day environmental
+            armor, blocks and interferes with the use of magic. A sorcerer can not wear more than partial armor,
+            ideally covering no more than a third of his body, never more than half. Covering oneself in metal or
+            man-made materials, including plastic and ceramic plates, has the strange effect of hampering the
+            channeling of magic energy. If more than 50% of the body is covered in artificial material the mage must
+            spend 20% more P.P.E. to cast a spell, and the player must roll once on the following table to see if
+            this interference has an impact on the spell.</p>
+        <p>01-20 Reduce spell damage or effects by 1D4x10%.</p>
+        <p>21-40 Reduce spell duration by 1D4x10%.</p>
+        <p>41-60 Reduce the spell's range by 1D4x10%.</p>
+        <p>61-80 Reduce both the range and duration of the spell by 20%.</p>
+        <p>81-00 Lucked out, no additional problems.</p>
+        <p>Armor made of such as leather or M.D.C. animal hides, can be worn without interfering with magic.
+            However, bulk and weight can become a serious problem as most practitioners of magic are not physically
+            conditioned and strong enough to wear heavy and even medium body armor, nor are mages used to wearing
+            armor (an additional -5% penalty is applied to the usual encumbrance modifier from wearing full body
+            armor). Thus, practitioners of magic are generally restricted to light body armor. Full armor is
+            typically worn only for the purpose of disguise. <b>Note:</b> The same considerations and penalties
+            apply to power armor, which practitioners of magic won't know how to operate/pilot.</p>
+        <p><b>Trying to cast magic from inside a vehicle or giant robot</b> is impossible, causing the magical
+            effect/damage to strike those inside the vehicle (can not penetrate the walls of the vehicle; even
+            novice students of magic are taught this). As a result, the spell caster must at least open a window or
+            hatch, and stick his head and upper body out (a nice target for snipers) to weave his magic. Many spells
+            also require to strike a specific target; the spell caster must be able to see his quarry.</p>
+        <p>The exception to the welcomed use of technology comes from supernatural beings (demons and gods) and
+            creatures of magic like Faerie Folk, dragons, the sphinx, and similar. These beings possess such immense
+            natural and magical abilities that the majority rely on them entirely, and reject technology as "man's
+            machines" or "toys." However, even many dragons, especially Hatchlings, and the occasional demon and
+            even god, will at least consider using bits and pieces of technology - for back-up or a surprise attack
+            if nothing else. There are exceptions here too. The lowliest of the
+            demon races, known as sub-demons, such as the Brodkil, Daemonix and Gargoyles, are comparatively
+            powerless in the area of magic, so those exposed to it welcome technology. <b>Brodkil</b> absolutely
+            love Vibro-Blades, heavy energy weapons and partial bionic augmentation, effectively making them Demon
+            Headhunters. Daemonix clamor for Techno-Wizard devices attached right to their bodies like bionics.
+            <b>Gargoyles</b> and the wingless Gurgoyles avoid bionic augmentation (their bio-regenerative powers
+            reject them), but enjoy using Vibro-Blades (especially Vibro-Claws and swords), energy weapons of all
+            kinds, optic systems (scopes, binoculars, optic bands, etc.) and other bits of technology. However,
+            Brodkil or Gargoyles seldom use vehicles, unless specifically made for them and designed to accommodate
+            their large size. The Gargoyles in Europe have a small armory of high-tech weaponry, including M.D.C.
+            body armor and weapons designed specifically for their race.
+        </p>
+        <h3 id="step_6_casting_spells">Step 6: Casting Spells</h3>
+        <p>Once the discipline is mastered and the character has enough P.P.E. built up and stored away inside his
+            internal P.P.E. battery, he is ready to use magic.</p>
+        <p><b>Casting spells is easy.</b></p>
+        <p><b>1. The character must know the spell.</b> Players, it's your responsibility to take note of the spells
+            you get to start, any spell selections, and the future acquisition of new spells as the character
+            advances in experience and knowledge, and/or additional spell invocations (see <i>The Pursuit of
+                Magic</i> elsewhere in this
+            section). A mage can cast any spell he does not know. The only exception is a spell scroll (very, very
+            rare on Rifts Earth) in which the scroll is read aloud to cast the spell, but once it is read the words
+            magically vanish or turn into gibberish or a powerless mystic symbol.</p>
+        <p><b>2. To cast a spell requires verbalization</b> - the speaking of the spell invocation. The mantra of
+            the
+            spell must be spoken aloud and with authority. Hand gestures are also usually part of the spell
+            casting process that helps focus and direct the mystic energy.</p>
+        <p><b>3. Time it takes to cast a spell.</b> The speaking/casting of a spell is very quick. Spell
+            invocations levels 1-5 count as attack/action (about 3 seconds). Levels 6- 10 count as
+            attacks/actions (about 6-7 seconds). Levels 11-15 and Spells of Legend use up of the character's
+            m elee attacks/actions (9- 10 seconds).</p>
+        <p><b>4. Keeping track of spent P.P.E.</b> The trickiest part of playing a practitioner of magic may be the
+            strategic use of your spell energy, P.P.E. Unless a practitioner of magic is on a ley line or nexus, he
+            or she has a finite amount of P.P.E.
+            When it is used up it is gone for a period of time. (Recovers 5 P.P.E. for every hour of rest or or 10
+            P.P.E. per hour of meditation. The exact amount may vary some as indicated under the specific O.C.C.).
+            The character's ALWAYS regenerates, the question becomes, will enough be available when the mage needs
+            it most? That requires careful and strategic use of the character's P.P.E., meditation, and other
+            considerations. <b>Note:</b> It is usually the responsibility to keep track of how much P.P.E. a spell
+            costs. how many P.P.E. his character has spent, what is left and when he runs out. The G.M. may elect to
+            keep track, but most use the honor system and trust the player will be honest and not cheat.</p>
+        <h3 id="step_7_magic_combat">Step 7: Magic Combat</h3>
+        <p>Every character has his strengths and weaknesses. The strength of any <i>Practitioner of Magic O.C.C.</i>
+            is the
+            power of magic. itself. The character wields amazing power and can make things happen and appear using
+            his mind, knowledge, internal energy (P.P.E.) and force of will. The range of spells available to him
+            will depend on what spells he, the character. studies (and the player selects).</p>
+        <p><i>The weakness of spell casting</i> is that even offensive spells have their limitations in range,
+            damage, etc.,
+            and the unspoken limitation that the spell caster is not the best at one on one combat action. He
+            usually lacks initiative and is the last to attack/respond in melee combat rotation.</p>
+        <p>However, the restructuring of the amount of time it takes to cast low level spells (one melee
+            attack/action to cast any spell levels 1-5) gives the character a chance to respond quickly and get off
+            his spell as fast or faster than his opponent may get off a gunshot. This also makes logical sense,
+            because it is the low level spells that cost the least P.P.E. and are the most likely to be fired off in
+            a combat or panic situation. The more powerful mid- and high-levei spells require more time,
+            concentration and focus, but the low level spells are so familiar to the character (because they're used
+            so often) that they are like second nature to cast.</p>
+        <p>When firing off a Level 1-5 invocation, roll initiative on a D20 as usual. The high roll wins, meaning
+            whoever has the initiative gets to fire or attack first. If it is the spell caster, he gets his spell
+            off before his attackers shoot or swing with fists, clubs, blades, flying leap kicks or chomping teeth
+            or slashing claws. The low level spell counts as of the character's melee attacks.</p>
+        <p>The mid- and high-level spells count as two or three of the mage's melee attacks and will require the
+            character to take a step back from the action to use his magic to the best strategic purpose. While this
+            may remove him from the immediate action of combat, his spell may have a profound effect on the battle,
+            that's the trade-off.</p>
+        <p><b>Vulnerable to a pressed attack.</b> With the arguable exception of the Shifter, practitioners of magic
+            are
+            not experts in hand to hand combat. Most can handle themselves in a fight, but they aren't warriors,
+            they just aren't. Furthermore, magic has the disadvantage of requiring concentration and speaking, two
+            things you can't do while under attack! So unless the spell being cast is a Level 1-5 invocation that
+            can be popped off in three or four seconds, the action of parrying, dodging or striking back will break
+            the spell invocation and prevent the mage from casting his spell (he'll need a "breather" of 7-10
+            seconds to cast a higher level spell). Likewise, getting popped in the mouth or stomach, or getting
+            knocked down or blinded. or anything that breaks the spell caster's concentration and makes him stop in
+            the middle of his verbalization of the spell prevents him from
+            finishing it.</p>
+        <p><b>When a spell is interrupted</b>, the mage must start all over again. He doesn't lose the P.P.E.
+            (that's not
+            spent until the spell is completed and cast), but he does lose precious time. (A good rule of thumb is
+            if the mage is hit, it breaks his spell casting, especially if he or his armor takes any damage from the
+            attack.)</p>
+        <p><b>Can't cast magic when under direct attack.</b> This also means if the mage is being hammered by a full
+            press attack (i.e., his attacker keeps striking at him at every opportunity), even if the sorcerer is
+            successfully parrying each attack, he is focused on protecting and defending himself and cannot get a
+            off. The same is true if he is doing the physical attacking, or running or performing any physical
+            action. To cast a spell the practitioner of magic will need to stop, catch his breath (that should count
+            as one or two of his melee actions/attacks) and then cast his spell (another one or more of his melee
+            actions depending on the spell level).</p>
+        <p>That's just how magic works. and a player has to be about how he uses the magic to take full advantage of
+            the strengths and avoid to the pitfall of the weaknesses. For example. a spell caster who is hidden can
+            make a devastating sniper. A mage who is away from the action at a strategic position. but can see the
+            battlefield and is defended a warrior or two, can effectively be a human howitzer firing off Call
+            Lightning or illusions, or Firequakcs, or god only knows what! He may also be able to instantly heal the
+            inj ured. or summon a fog or storm or monster to cover a retreat, or magically hide or disguise himself
+            (and others). and the list goes on and on. That versatility and range of power 1s the strength of the
+            spell caster. Focus on those strengths and wish for good luck and a helping hand when the mage gets into
+            a jam.</p>
+        <h3 id="step_8_the_pursuit_of_magic">Step 8: The Pursuit of Magic</h3>
+        <p><b>Learning Spells.</b> Practitioners of magic, except for the Mystic, can learn and cast spells far
+            above their
+            actual experience level. This means a second level Ley Line Walker could cast a tenth level spell,
+            providing he had sufficient magic energy. The Line Walker and Shifter are both proficient enough that
+            they can even figure out a new spell incantation every time they reach a new level of experience.
+            However, there are still a multitude of incantations one can learn. The trick is learning them.</p>
+        <p>It is far easier to learn an already existing incantation than it is to create one from scratch. This is
+            due, in part, to the knowledge that the existing spell is proven to work. It simply adds to the level of
+            conviction and therefore insures the success of the spell. Remember that spells are designed to focus
+            one's concentration and will so strongly that the mage can create a magic effect. This is more difficult
+            than one might imagine.</p>
+        <h4 id="purchasing_magic">Purchasing Magic</h4>
+        <p>Practitioners of magic can sometimes purchase spell magic from magic shops, adult or ancient dragons, and
+            elder masters of m agic (9th level or higher). Places like Lazio, the Mystic Quarter at MercTown and
+            some of the cities in the Magic Zone may also have a college or guild that sells magic knowledge. In
+            <i>ALL</i> cases, the seller is a practitioner of magic who guards his secrets well and only sells to
+            those whom he knows are brother spell casters.
+        </p>
+        <p>The prices are usually quite steep, 5000 credits per each spell invocation for Level One spells, 10,000
+            credits per each Level Two spell, 20,000 credits per each Level Three spell, 30,000 credits for each
+            Level Four. 40,000 credits for each Level Five spell, 70,000 credits for each Level Six spell, 90,000
+            credits for each Level Seven spell, 120,000 for each Level Eight spell, 180,000 for each Level Nine
+            spell, and 500,000 to one million credits for Tenth Level spells and higher (they are rarely available
+            for sale; 01-10% chance). Spells of Legend are never available for cash purchase. <b>Note:</b> Add a 10%
+            premium charge for offensive spells and add 20% for metamorphosis and summoning spells. Most magic
+            shops and even colleges do NOT offer the full range of spells (Levels 1-4 are most common) and many
+            shops will not be able to teach spells at all! Just because a shop sells m agic items and TW devices
+            docs not mean its proprietors can teach m agic. And prices will change from establishment to
+            establishment, some charging 10% less, others 50% to 200% higher. Remember,
+            the practice of magic frightens many normal people, so it is the rare community outside of the Magic
+            Zone that even has a magic shop of any kind; most wilderness towns do On the other hand, there is likely
+            to be 1D4 m agic shops of some kind (perhaps mobile; and probably only a couple dozen spells from
+            Levels 1-4) in one or two of the CS 'Burbs. Of course, if caught doing business at one or it is really a
+            CS "sting operation," the character will be attacked or if taken in for questioning and (if a mage or
+            D-Bee) executed. Many citizens of the ' Burbs also fear magic and will call the police if they get
+            suspicious about a person or place. Beware.</p>
+        <p><b>Trade for Magic.</b> Much more common than purchasing invocations for credits is trading one's service
+            (or
+            the service of the group) in exchange for a couple of mid- or high-level spells (Levels 5-9). The more
+            powerful the spell, the more dangerous the work. The employer? Probably a magic guild, cult, agent of
+            the Federation of Magic, demon or a dragon. The job/quest probably involves retrieval of a person, m
+            agic object, or, really, almost anything. It may also involve murder, sabotage, framing someone,
+            blackmail, bodyguard work, information, and a host of other things.</p>
+        <p><b>Demons</b> and other supernatural fiends will sometimes teach m agic for money or more often, for
+            trade. They
+            may want a m agic relic, weapon or information, or other service (spying, murder, etc.). However, it is
+            always dangerous dealing with demons for obvious reasons.</p>
+        <p><b>Boons and Grants.</b> Spell invocations are sometimes granted as a reward by some communities,
+            kingdoms,
+            magic guilds, priests and gods in trade for the character (or group of characters) performing some quest
+            or service as noted previously.</p>
+        <h4 id="magic_guilds_and_brotherhoods">Magic Guilds &amp; Brotherhoods</h4>
+        <p>A mage can learn new spells through several different means. One way is to join a magic guild or
+            brotherhood. The brotherhood is usually willing to teach new invocations to its members, but there are a
+            number of catches. For one, the guild usually demands total allegiance, meaning that the member will
+            donate at least 10% to 20% of his annual income to the brotherhood/guild and do other things to support
+            (clean, build, maintenance, teach) and protect it from enemies. This codicil may lead to being sent on
+            quests, research or archaeological expeditions, reconnaissance, and even spying and combat assignments.
+            This could also lead to one's services being rented out to outside forces, such as a local kingdom who
+            needs the talents of a mage for whatever reason and is willing to pay the guild or brotherhood
+            handsomely for the service. Rivalry between magic guilds and individuals or other guilds/brotherhoods
+            can also lead to gang wars and acts of vengeance.</p>
+        <p>Initiates to a guild are usually given a speech about the benefits of membership (there are some real
+            benefits too, such as low room and board, sanctuary from outside forces, access to m ystic knowledge and
+            books, and communication with fellow mages, etc.). After the new member has offered a reasonable
+            donation, 5,000-10,000 credits is common, he will be officially accepted and have full benefits of
+            membership. However, spell knowledge is likely to be withheld for a few months until the newbie has
+            proven to be loyal and worthy. Acts of heroics, dedication, and generosity (big donations) are likely to
+            increase one's acceptability and status in the organization and earn the character the right to be
+            taught a couple new spells (from invocation Levels 1-4, possibly 1-6).</p>
+        <p>Spell knowledge is power, thus it is guarded jealously by most mages. Even in friendly and open m agic
+            societies like Lazio, New Lazio, and (the former) Tolkeen, there are some spells that are guarded
+            secrets, rarely taught. These generally include most spells above level 10. The easiest spells to find
+            are levels 1-4, followed by levels 5-7. Beyond this, the secrets of magic are just that, secret.</p>
+        <p>Generally, any action that significantly helps the guild will earn the mage the right to be taught 1D4
+            new spells of his choice (assuming the spells are known by its membership). Spell level is usually kept
+            to magic levels 1-5. An incredible act of heroics or self sacrifice will
+            earn the character 1D4+2 spells selected from levels 1-6, or any one spell from any level beyond six.
+            Nonmembers who save or protect the guild at great risk to their own lives are offered guild membership
+            and a reward of two spells from levels 1-5 (non-mages will be healed, fed, given free room for a week,
+            and 2D6x100 in silver or credits).</p>
+        <h4 id="magic_scrolls">Magic Scrolls </h4>
+        <p>Magic scrolls arc extremely uncommon on Rifts Earth. One reason is that most people, including many
+            practitioners of magic, are illiterate (about 70%). Another is that few are either skilled enough or
+            willing to write a spell invocation down for fear other mages will learn the spell from the scroll.</p>
+        <p>Scroll magic is slightly different because it has a certain amount of magic built right into it. However.
+            a literate mage has a chance of learning spells by translating scrolls. <b>Base Skill:</b> 10% +2% per
+            level of experience. Note that the spell is instantly activated the moment it is read aloud and the
+            words then disappear or turn into gibberish or a magic symbol.</p>-->
+    </div>
+
+</main>
+
+    <footer>
+        <p>Footer</p>
+
+    </footer>
+</body>
+</html>

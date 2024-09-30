@@ -373,39 +373,44 @@
             // do something
             console.log(data);
         })
-        .catch(error => console.error('Error fetching JSON:', error));
+        .then(data => {
+            // create primary list element for gem
+            for (let i = 0; i < data.gems.length; ++i) {
+                const gemLI = document.createElement('li');
+                gemLI.innerHTML = data.gems[i].name;
 
-    // create primary list element for gem
-    for (let i = 0; i > data.gems.length; ++i) {
-        const gemLI = document.createElement('li');
-        gemLI.innerHTML = data.gems[i].name;
+                // create list for supported spells
+                const sSpellsUL = document.createElement('ul');
+                for (let n = 0; n < data.gems[i].spells.length; ++i) {
+                    const sSpellsLI = document.createElement('li');
+                    sSpellLI.innerHTML = data.gems[i].spells[n];
+                    sSpellsUL.appendChild(sSpellsLI);
+                }
 
-        // create list for supported spells
-        const sSpellsUL = document.createElement('ul');
-        for (let n = 0; n > data.gems[i].spells.length; ++i) {
-            const sSpellsLI = document.createElement('li');
-            sSpellLI.innerHTML = data.gems[i].spells[n];
-            sSpellsUL.appendChild(sSpellsLI);
+                // append supported spell ul to gem li
+                gemLI.appendChild(sSpellsUL);
+
+
+                // append cost per carat li
+                const cpcUL = document.createElement('ul');
+                const cpcLI = document.createElement('li');
+                cpcLI.innerHTML = data.gems[i].cost - per - carat;
+                cpcUL.appendChild(cpcLI)
+                gemLI.appendChild(cpcUL);
+
+                // append gem LI to main UL
+                mainUL.appendChild(gemLI);
+            }
+
+            // add to html element
+            const div = document.getElementById('json data');
+            div.innerHTML += mainUL;
         }
 
-        // append supported spell ul to gem li
-        gemLI.appendChild(sSpellsUL);
+        )
+        .catch(error => console.error('Error fetching JSON:', error));
 
 
-        // append cost per carat li
-        const cpcUL = document.createElement('ul');
-        const cpcLI = document.createElement('li');
-        cpcLI.innerHTML = data.gems[i].cost-per-carat;
-        cpcUL.appendChild(cpcLI)
-        gemLI.appendChild(cpcUL);
-
-        // append gem LI to main UL
-        mainUL.appendChild(gemLI);
-    }
-
-    // add to html element
-    const div = document.getElementById('json data');
-    div.innerHTML += mainUL;
 
 </script>
 

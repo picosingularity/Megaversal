@@ -390,7 +390,7 @@
                 // append cost per carat li
                 const cpcUL = document.createElement('ul');
                 const cpcLI = document.createElement('li');
-                cpcLI.innerHTML = data.gems[i].cost - per - carat;
+                cpcLI.innerHTML = data.gems[i].costpercarat;
                 cpcUL.appendChild(cpcLI)
                 gemLI.appendChild(cpcUL);
 

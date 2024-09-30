@@ -16,7 +16,7 @@
                 "Resurrection (650)",
                 "Super-Healing (70)"
             ],
-            "cost-per-carat": "60"
+            "costpercarat": "60"
         },
         {
             "name": "Agate (fire)",
@@ -31,7 +31,7 @@
                 "Tongues (12)",
                 "Words of Truth (15)"
             ],
-            "cost-per-carat": "80"
+            "costpercarat": "80"
         },
         {
             "name": "Amber",
@@ -42,7 +42,7 @@
                 "Mend the Broken (10+)",
                 "Sustain (12)"
             ],
-            "cost-per-carat": "600"
+            "costpercarat": "600"
         },
         {
             "name": "Alexandrite",
@@ -56,7 +56,7 @@
                 "Metamorphosis: Superior (100)",
                 "Tame Beast (60)"
             ],
-            "cost-per-carat": "3,000"
+            "costpercarat": "3,000"
         },
         {
             "name": "Amethyst",
@@ -68,7 +68,7 @@
                 "Mute (50)",
                 "Paralysis: Lesser (5)"
             ],
-            "cost-per-carat": "400"
+            "costpercarat": "400"
         },
         {
             "name": "Andnodite",
@@ -84,7 +84,7 @@
                 "Spoil (Food/Water) (30)",
                 "Transformation (2000)"
             ],
-            "cost-per-carat": "500"
+            "costpercarat": "500"
         },
         {
             "name": "Aquamarine",
@@ -95,7 +95,7 @@
                 "Summon & Control Sea Serpents (350)",
                 "Water to Wine (40)"
             ],
-            "cost-per-carat": "2,000"
+            "costpercarat": "2,000"
         },
         {
             "name": "Chrysophase (quartz)",
@@ -106,7 +106,7 @@
                 "Summon Ley Line Storm (500)",
                 "Summon Shadow Beast (140)"
             ],
-            "cost-per-carat": "450"
+            "costpercarat": "450"
         },
         {
             "name": "Citrine",
@@ -119,7 +119,7 @@
                 "Summon & Control Entity (250)",
                 "Summon & Control Rodents (70)"
             ],
-            "cost-per-carat": "4,000"
+            "costpercarat": "4,000"
         },
         {
             "name": "Diamond",
@@ -135,7 +135,7 @@
                 "Wards (90)",
                 "Can also be used to store P.P.E"
             ],
-            "cost-per-carat": "15,000"
+            "costpercarat": "15,000"
         },
         {
             "name": "Emerald (green)",
@@ -149,7 +149,7 @@
                 "Wall of Not (70)",
                 "Can also be used to store P.P.E"
             ],
-            "cost-per-carat": "16,000"
+            "costpercarat": "16,000"
         },
         {
             "name": "Garnet (black)",
@@ -161,7 +161,7 @@
                 "Magic Pigeon (20)",
                 "Winged Flight (35)"
             ],
-            "cost-per-carat": "2,500"
+            "costpercarat": "2,500"
         },
         {
             "name": "Garnet (all other colors)",
@@ -176,7 +176,7 @@
                 "Thunderclap (4)",
                 "Wave of Frost (6)"
             ],
-            "cost-per-carat": "1,000"
+            "costpercarat": "1,000"
         },
         {
             "name": "Jade",
@@ -189,7 +189,7 @@
                 "Life Source (2+Special)",
                 "Wall of the Weird (180)"
             ],
-            "cost-per-carat": "1,000"
+            "costpercarat": "1,000"
         },
         {
             "name": "Ivory",
@@ -203,7 +203,7 @@
                 "Life Drain (25)",
                 "Turn Dead (6)"
             ],
-            "cost-per-carat": "20"
+            "costpercarat": "20"
         },
         {
             "name": "Lapis Lazuli",
@@ -217,7 +217,7 @@
                 "Teleport: Superior (600)",
                 "Void (700)"
             ],
-            "cost-per-carat": "5,000"
+            "costpercarat": "5,000"
         },
         {
             "name": "Malachite",
@@ -231,7 +231,7 @@
                 "Seal (7)",
                 "Talisman (500)"
             ],
-            "cost-per-carat": "2,500"
+            "costpercarat": "2,500"
         },
         {
             "name": "Opal (black)",
@@ -243,7 +243,7 @@
                 "Trance (10)",
                 "Transferal (50)"
             ],
-            "cost-per-carat": "600"
+            "costpercarat": "600"
         },
         {
             "name": "Opal (fire)",
@@ -255,7 +255,7 @@
                 "Reality Flux (75)",
                 "Watchguard (10)"
             ],
-            "cost-per-carat": "700"
+            "costpercarat": "700"
         },
         {
             "name": "Opal (all other colors)",
@@ -271,7 +271,7 @@
                 "Telekinesis (8)",
                 "Throwing Stones (5)"
             ],
-            "cost-per-carat": "500"
+            "costpercarat": "500"
         },
         {
             "name": "Onyx",
@@ -295,7 +295,7 @@
                 "Time Slip (20)",
                 "Warped Space (90)"
             ],
-            "cost-per-carat": "1,000"
+            "costpercarat": "1,000"
         },
         {
             "name": "Pearls (black)",
@@ -308,7 +308,7 @@
                 "Superhuman Strength (10)",
                 "Superhuman Speed (10)"
             ],
-            "cost-per-carat": "6,000"
+            "costpercarat": "6,000"
         },
         {
             "name": "Pearls (white)",
@@ -321,7 +321,7 @@
                 "Realm of Chaos (70)",
                 "Swords to Snakes (50)"
             ],
-            "cost-per-carat": "5,000"
+            "costpercarat": "5,000"
         },
         {
             "name": "Quartz (clear)",
@@ -333,7 +333,7 @@
                 "Light Target (6)",
                 "Lightblade (20)"
             ],
-            "cost-per-carat": "60"
+            "costpercarat": "60"
         },
         {
             "name": "Quartz (rose)",
@@ -344,7 +344,7 @@
                 "Remove Curse (140)",
                 "Stone to Flesh (30)"
             ],
-            "cost-per-carat": "150"
+            "costpercarat": "150"
         },
         {
             "name": "Quartz (ruby)",
@@ -356,7 +356,7 @@
                 "Shatter (5)",
                 "Sheltering Force (20)"
             ],
-            "cost-per-carat": "300"
+            "costpercarat": "300"
         },
         {
             "name": "Quartz (smoky)",
@@ -369,7 +369,7 @@
                 "Fuel Flame (5)",
                 "Resist Fire (6)"
             ],
-            "cost-per-carat": "150"
+            "costpercarat": "150"
         },
         {
             "name": "Ruby (deep red)",
@@ -382,7 +382,7 @@
                 "Fire Bolt (7)",
                 "Fire Gout (20)"
             ],
-            "cost-per-carat": "19,000"
+            "costpercarat": "19,000"
         },
         {
             "name": "Ruby (blue)",
@@ -394,7 +394,7 @@
                 "Fear (5)",
                 "Wisps of Confusion (40)"
             ],
-            "cost-per-carat": "18,000"
+            "costpercarat": "18,000"
         },
         {
             "name": "Sapphire (black)",
@@ -404,7 +404,7 @@
                 "Shadow Meld (10)",
                 "Shadow Wall (400)"
             ],
-            "cost-per-carat": "20,000"
+            "costpercarat": "20,000"
         },
         {
             "name": "Star Sapphire",
@@ -417,7 +417,7 @@
                 "Soultwist (170)",
                 "Speed of the Snail (50)"
             ],
-            "cost-per-carat": "20,000"
+            "costpercarat": "20,000"
         },
         {
             "name": "Sapphire (all other colors)",
@@ -432,7 +432,7 @@
                 "Summon Ally (600)",
                 "Weight of Duty (10)"
             ],
-            "cost-per-carat": "16,000"
+            "costpercarat": "16,000"
         },
         {
             "name": "Tiger Eye",
@@ -446,7 +446,7 @@
                 "See the Invisible (4)",
                 "See Wards (20)"
             ],
-            "cost-per-carat": "3,000"
+            "costpercarat": "3,000"
         },
         {
             "name": "Topaz (yellow or brown)",
@@ -456,7 +456,7 @@
                 "Negate Poison/Toxin (5)",
                 "Purification (Food/Water) (20)"
             ],
-            "cost-per-carat": "200"
+            "costpercarat": "200"
         },
         {
             "name": "Tourmaline (black)",
@@ -468,7 +468,7 @@
                 "Ley Line Shutdown (3000)",
                 "Ley Line Storm Defense (180)"
             ],
-            "cost-per-carat": "120"
+            "costpercarat": "120"
         },
         {
             "name": "Turquoise",
@@ -480,7 +480,7 @@
                 "Power Weapon (35)",
                 "Speed Weapon (100)"
             ],
-            "cost-per-carat": "240"
+            "costpercarat": "240"
         },
         {
             "name": "Zircon (clear)",
@@ -492,7 +492,7 @@
                 "Wall of Wind (40)",
                 "Wind Rush (20)"
             ],
-            "cost-per-carat": "3,500"
+            "costpercarat": "3,500"
         },
         {
             "name": "Zircon (blue)",
@@ -502,7 +502,7 @@
                 "Summon & Control Storm (300)",
                 "Summon Fog (140)"
             ],
-            "cost-per-carat": "1,500"
+            "costpercarat": "1,500"
         },
         {
             "name": "Zircon (red)",
@@ -516,7 +516,7 @@
                 "Sorcerous Fury (70)",
                 "Sub-Particle Acceleration (20)"
             ],
-            "cost-per-carat": "2,000"
+            "costpercarat": "2,000"
         },
         {
             "name": "Zircon (yellow,brown or gold)",
@@ -534,7 +534,7 @@
                 "Multiple Image (7)",
                 "World Bizarre (40)"
             ],
-            "cost-per-carat": "300"
+            "costpercarat": "300"
         }
     ]
 }

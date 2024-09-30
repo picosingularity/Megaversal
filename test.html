@@ -377,7 +377,7 @@
 
                 // create list for supported spells
                 const sSpellsUL = document.createElement('ul');
-                for (let n = 0; n < data.gems[i].spells.length; ++i) {
+                for (var n in data.gems[i].spells) {
                     const sSpellLI = document.createElement('li');
                     sSpellLI.innerHTML = data.gems[i].spells[n];
                     sSpellsUL.appendChild(sSpellLI);

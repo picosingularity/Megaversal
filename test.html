@@ -363,19 +363,15 @@
     </footer>
 </body>
 <script>
-    let data;
+    //let data;
     const mainUL = document.createElement('ul');
 
     // fetch json file
     fetch('TW_gems.json')
         .then(Response => Response.json())
         .then(data => {
-            // do something
-            console.log(data);
-        })
-        .then(data => {
-            // create primary list element for gem
-            for (let i = 0; i < data.gems.length; ++i) {
+             // create primary list element for gem
+             for (let i = 0; i < data.gems.length; ++i) {
                 const gemLI = document.createElement('li');
                 gemLI.innerHTML = data.gems[i].name;
 
@@ -405,9 +401,10 @@
             // add to html element
             const div = document.getElementById('json data');
             div.innerHTML += mainUL;
-        }
 
-        )
+            // log
+            console.log(data);
+        })
         .catch(error => console.error('Error fetching JSON:', error));
 
 

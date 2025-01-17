@@ -1,540 +1,632 @@
-{
-    "gems": [
-        {
-            "name": "Agate (red-orange)",
-            "spells": [
-                "Greater Healing (30)",
-                "Heal Self (20)",
-                "Heal Wounds (10)",
-                "Ley Line Restoration (800)",
-                "Light Healing (6)",
-                "Purge Other (100)",
-                "Purge Self (70)",
-                "Restoration (750)",
-                "Restore Life (275)",
-                "Restore Limb (80)",
-                "Resurrection (650)",
-                "Super-Healing (70)"
-            ],
-            "costpercarat": "60"
-        },
-        {
-            "name": "Agate (fire)",
-            "spells": [
-                "Eyes of Thoth (8)",
-                "Instill Knowledge (15)",
-                "Memory Bank (12)",
-                "Oracle (30)",
-                "Second Sight (20)",
-                "Sense Evil (2)",
-                "Sense Magic (4)",
-                "Tongues (12)",
-                "Words of Truth (15)"
-            ],
-            "costpercarat": "80"
-        },
-        {
-            "name": "Amber",
-            "spells": [
-                "Create Wood (10-20)",
-                "Detect Concealment (6)",
-                "Ironwood (50+)",
-                "Mend the Broken (10+)",
-                "Sustain (12)"
-            ],
-            "costpercarat": "600"
-        },
-        {
-            "name": "Alexandrite",
-            "spells": [
-                "Eyes of the Wolf (25)",
-                "Influence the Beast (12)",
-                "Metamorphosis: Animal (25)",
-                "Metamorphosis: Human (40)",
-                "Metamorphosis: Insect (60)",
-                "Metamorphosis: Mist (250)",
-                "Metamorphosis: Superior (100)",
-                "Tame Beast (60)"
-            ],
-            "costpercarat": "3,000"
-        },
-        {
-            "name": "Amethyst",
-            "spells": [
-                "Carpet of Adhesion (10)",
-                "Havoc (70)",
-                "Magic Net (7)",
-                "Magic Shield (6)",
-                "Mute (50)",
-                "Paralysis: Lesser (5)"
-            ],
-            "costpercarat": "400"
-        },
-        {
-            "name": "Andnodite",
-            "spells": [
-                "Curse of the World Bizarre (100)",
-                "Curse: Phobia (40)",
-                "Death Curse (Special)",
-                "Luck Curse (40)",
-                "Minor Curse (35)",
-                "Repel Animals (7)",
-                "Sickness (50)",
-                "Sleep (10)",
-                "Spoil (Food/Water) (30)",
-                "Transformation (2000)"
-            ],
-            "costpercarat": "500"
-        },
-        {
-            "name": "Aquamarine",
-            "spells": [
-                "Create Water (15)",
-                "Swim as the Fish (6)",
-                "Swim as the Fish: Superior (12)",
-                "Summon & Control Sea Serpents (350)",
-                "Water to Wine (40)"
-            ],
-            "costpercarat": "2,000"
-        },
-        {
-            "name": "Chrysophase (quartz)",
-            "spells": [
-                "Ley Line Transmission (30)",
-                "Summon Greater Familiar (80)",
-                "Summon Lesser Being (425)",
-                "Summon Ley Line Storm (500)",
-                "Summon Shadow Beast (140)"
-            ],
-            "costpercarat": "450"
-        },
-        {
-            "name": "Citrine",
-            "spells": [
-                "Astral Hole (120)",
-                "Astral Projection (10)",
-                "Commune with Spirits (25)",
-                "Summon & Control Animals (125)",
-                "Summon & Control Canines (50)",
-                "Summon & Control Entity (250)",
-                "Summon & Control Rodents (70)"
-            ],
-            "costpercarat": "4,000"
-        },
-        {
-            "name": "Diamond",
-            "spells": [
-                "Armor of Ithan (10)",
-                "Crushing Fist (12)",
-                "Fly (15)",
-                "Fly as the Eagle (25)",
-                "Impenetrable Wall of Force (600)",
-                "Invincible Armor (30)",
-                "Invulnerability (25)",
-                "Wall of Defense (55)",
-                "Wards (90)",
-                "Can also be used to store P.P.E"
-            ],
-            "costpercarat": "15,000"
-        },
-        {
-            "name": "Emerald (green)",
-            "spells": [
-                "Aura of Power (4)",
-                "Invisibility: Simple (6)",
-                "Invisibility: Superior (20)",
-                "Ley Line Fade (20)",
-                "Ley Line Ghost (80)",
-                "Ley Line Phantom (40)",
-                "Wall of Not (70)",
-                "Can also be used to store P.P.E"
-            ],
-            "costpercarat": "16,000"
-        },
-        {
-            "name": "Garnet (black)",
-            "spells": [
-                "Create Golem (700 or 1000)",
-                "Create Magic Scroll (1000)",
-                "Create Steel (68)",
-                "Enchant Weapon (400 to 1000+)",
-                "Magic Pigeon (20)",
-                "Winged Flight (35)"
-            ],
-            "costpercarat": "2,500"
-        },
-        {
-            "name": "Garnet (all other colors)",
-            "spells": [
-                "Distant Voice (10)",
-                "Frostblade (15)",
-                "Globe of Silence (20)",
-                "lee (15)",
-                "Orb of Cold (6)",
-                "Shockwave (45)",
-                "Sonic Blast (25)",
-                "Thunderclap (4)",
-                "Wave of Frost (6)"
-            ],
-            "costpercarat": "1,000"
-        },
-        {
-            "name": "Jade",
-            "spells": [
-                "Climb (3)",
-                "Escape (8)",
-                "Familiar Link (55)",
-                "Life Blast (15)",
-                "Lifeward (40)",
-                "Life Source (2+Special)",
-                "Wall of the Weird (180)"
-            ],
-            "costpercarat": "1,000"
-        },
-        {
-            "name": "Ivory",
-            "spells": [
-                "Animate/Control Dead (20)",
-                "Aura of Death (12)",
-                "Aura of Doom (40)",
-                "Create Mummy (160)",
-                "Create Zombie (250)",
-                "Exorcism (30)",
-                "Life Drain (25)",
-                "Turn Dead (6)"
-            ],
-            "costpercarat": "20"
-        },
-        {
-            "name": "Lapis Lazuli",
-            "spells": [
-                "Annihilate (600)",
-                "Anti-Magic Cloud (140)",
-                "Dispel Magic Barriers (20)",
-                "Negate Magic (30)",
-                "Sanctum (390)",
-                "Teleport: Lesser (15)",
-                "Teleport: Superior (600)",
-                "Void (700)"
-            ],
-            "costpercarat": "5,000"
-        },
-        {
-            "name": "Malachite",
-            "spells": [
-                "Amulet (290+)",
-                "Collapse (70-400)",
-                "Featherlight (10)",
-                "Mystic Alarm (5)",
-                "Mystic Fulcrum (5)",
-                "Reflection (7)",
-                "Seal (7)",
-                "Talisman (500)"
-            ],
-            "costpercarat": "2,500"
-        },
-        {
-            "name": "Opal (black)",
-            "spells": [
-                "Disharmonize (150)",
-                "Enemy Mind (100)",
-                "Id Alter Ego (130)",
-                "Id Barrier (600)",
-                "Trance (10)",
-                "Transferal (50)"
-            ],
-            "costpercarat": "600"
-        },
-        {
-            "name": "Opal (fire)",
-            "spells": [
-                "Banishment (65)",
-                "Desiccate the Supernatural (50)",
-                "Expel Demons (35)",
-                "Forcebonds (25)",
-                "Reality Flux (75)",
-                "Watchguard (10)"
-            ],
-            "costpercarat": "700"
-        },
-        {
-            "name": "Opal (all other colors)",
-            "spells": [
-                "Armorbane (100)",
-                "Barrage (15)",
-                "Deflect (10)",
-                "Manipulate Objects (2+)",
-                "Negate Mechanics (20)",
-                "Ricochet Strike (12)",
-                "Spinning Blades (20)",
-                "Targeted Deflection (15)",
-                "Telekinesis (8)",
-                "Throwing Stones (5)"
-            ],
-            "costpercarat": "500"
-        },
-        {
-            "name": "Onyx",
-            "spells": [
-                "Circle of Travel (600)",
-                "Close Rift (200+)",
-                "Dimensional Portal (1000)",
-                "Dimensional Teleport (800)",
-                "Ley Line Time Capsule (15)",
-                "Ley Line Time Flux (80)",
-                "Meteor (75)",
-                "Mystic Portal (60)",
-                "Plane Skip (65)",
-                "Re-Open Gateway (180)",
-                "Rift to Limbo (160)",
-                "Rift Teleportation (200)",
-                "Rift Triangular Defense System (840)",
-                "Swallowing Rift (300)",
-                "Swap Places (100)",
-                "Time Hole (210)",
-                "Time Slip (20)",
-                "Warped Space (90)"
-            ],
-            "costpercarat": "1,000"
-        },
-        {
-            "name": "Pearls (black)",
-            "spells": [
-                "Giant (80)",
-                "Levitation (5)",
-                "Magical-Adrenal Rush (45)",
-                "Reduce Self (20)",
-                "Superhuman Endurance (12)",
-                "Superhuman Strength (10)",
-                "Superhuman Speed (10)"
-            ],
-            "costpercarat": "6,000"
-        },
-        {
-            "name": "Pearls (white)",
-            "spells": [
-                "Cleanse (6)",
-                "Fist of Fury (10 or 50)",
-                "Locate (30)",
-                "Magic Warrior (60)",
-                "Phantom Mount (45)",
-                "Realm of Chaos (70)",
-                "Swords to Snakes (50)"
-            ],
-            "costpercarat": "5,000"
-        },
-        {
-            "name": "Quartz (clear)",
-            "spells": [
-                "Blinding Flash (1)",
-                "Globe of Daylight (2)",
-                "Chromatic Protection (10)",
-                "Lantern Light (1)",
-                "Light Target (6)",
-                "Lightblade (20)"
-            ],
-            "costpercarat": "60"
-        },
-        {
-            "name": "Quartz (rose)",
-            "spells": [
-                "Cure Illness (15)",
-                "Cure Minor Disorders (10)",
-                "Fortify Against Disease (15)",
-                "Remove Curse (140)",
-                "Stone to Flesh (30)"
-            ],
-            "costpercarat": "150"
-        },
-        {
-            "name": "Quartz (ruby)",
-            "spells": [
-                "Energy Disruption (12)",
-                "Energy Field (10)",
-                "Energy Sphere (120)",
-                "Ignite Fire (6)",
-                "Shatter (5)",
-                "Sheltering Force (20)"
-            ],
-            "costpercarat": "300"
-        },
-        {
-            "name": "Quartz (smoky)",
-            "spells": [
-                "Cloud of Smoke (2)",
-                "Impervious to Fire (5)",
-                "Firequake (160)",
-                "Fire Blossom (20)",
-                "Fire Globe (40)",
-                "Fuel Flame (5)",
-                "Resist Fire (6)"
-            ],
-            "costpercarat": "150"
-        },
-        {
-            "name": "Ruby (deep red)",
-            "spells": [
-                "Ballistic Fire (25)",
-                "Circle of Flame (10)",
-                "Dragon Fire (40)",
-                "Fireblast (8)",
-                "Fire Ball (10)",
-                "Fire Bolt (7)",
-                "Fire Gout (20)"
-            ],
-            "costpercarat": "19,000"
-        },
-        {
-            "name": "Ruby (blue)",
-            "spells": [
-                "Be fuddle (6)",
-                "Charm (12)",
-                "Compulsion (20)",
-                "Domination (10)",
-                "Fear (5)",
-                "Wisps of Confusion (40)"
-            ],
-            "costpercarat": "18,000"
-        },
-        {
-            "name": "Sapphire (black)",
-            "spells": [
-                "Cloak of Darkness (6)",
-                "Null Sphere (220)",
-                "Shadow Meld (10)",
-                "Shadow Wall (400)"
-            ],
-            "costpercarat": "20,000"
-        },
-        {
-            "name": "Star Sapphire",
-            "spells": [
-                "Agony (20)",
-                "Constrain Being (20)",
-                "Control/Enslave Entity (80)",
-                "Death word (70)",
-                "Ensorcel (400)",
-                "Soultwist (170)",
-                "Speed of the Snail (50)"
-            ],
-            "costpercarat": "20,000"
-        },
-        {
-            "name": "Sapphire (all other colors)",
-            "spells": [
-                "Beat Insurmountable Odds (70)",
-                "Calling (8)",
-                "Charismatic Aura (10)",
-                "Hallucination (30)",
-                "Horror (10)",
-                "Protection Circle: Simple (45)",
-                "Protection Circle: Superior (300)",
-                "Summon Ally (600)",
-                "Weight of Duty (10)"
-            ],
-            "costpercarat": "16,000"
-        },
-        {
-            "name": "Tiger Eye",
-            "spells": [
-                "Blind (6)",
-                "Mental Blast (15)",
-                "Mental Shock (30)",
-                "Mindshatter (130)",
-                "Sec Aura (6)",
-                "See in Magic Darkness (125)",
-                "See the Invisible (4)",
-                "See Wards (20)"
-            ],
-            "costpercarat": "3,000"
-        },
-        {
-            "name": "Topaz (yellow or brown)",
-            "spells": [
-                "House of Glass (12)",
-                "Impervious to Poison (5)",
-                "Negate Poison/Toxin (5)",
-                "Purification (Food/Water) (20)"
-            ],
-            "costpercarat": "200"
-        },
-        {
-            "name": "Tourmaline (black)",
-            "spells": [
-                "Bottomless Pit (100)",
-                "D-Step (50)",
-                "Frequency Jamming (15)",
-                "Implosion Neutralizer (12)",
-                "Ley Line Shutdown (3000)",
-                "Ley Line Storm Defense (180)"
-            ],
-            "costpercarat": "120"
-        },
-        {
-            "name": "Turquoise",
-            "spells": [
-                "Chameleon (6)",
-                "Concealment (6)",
-                "Death Trance (1)",
-                "Power Bolt (20)",
-                "Power Weapon (35)",
-                "Speed Weapon (100)"
-            ],
-            "costpercarat": "240"
-        },
-        {
-            "name": "Zircon (clear)",
-            "spells": [
-                "Breathe without Air (5)",
-                "Fingers of the Wind (5)",
-                "Float in Air (5)",
-                "Heavy Air (200)",
-                "Wall of Wind (40)",
-                "Wind Rush (20)"
-            ],
-            "costpercarat": "3,500"
-        },
-        {
-            "name": "Zircon (blue)",
-            "spells": [
-                "Calm Storms (200)",
-                "Summon & Control Rain (200)",
-                "Summon & Control Storm (300)",
-                "Summon Fog (140)"
-            ],
-            "costpercarat": "1,500"
-        },
-        {
-            "name": "Zircon (red)",
-            "spells": [
-                "Call Lightning (15)",
-                "Electric Arc (8)",
-                "Energize Spell (12+)",
-                "Energy Bolt (5)",
-                "Impervious to Energy (20)",
-                "Lightning Arc (30)",
-                "Sorcerous Fury (70)",
-                "Sub-Particle Acceleration (20)"
-            ],
-            "costpercarat": "2,000"
-        },
-        {
-            "name": "Zircon (yellow,brown or gold)",
-            "spells": [
-                "Apparition (20)",
-                "Armor Bizarre (15)",
-                "Fool's Gold (10)",
-                "Horrific Illusion (10)",
-                "Illusion Booster (15)",
-                "Illusion Manipulation (25-60)",
-                "Illusory Forest (45-90)",
-                "Illusory Terrain (55-120)",
-                "Illusory Wall (15 or 30)",
-                "Mask of Deceit (15)",
-                "Multiple Image (7)",
-                "World Bizarre (40)"
-            ],
-            "costpercarat": "300"
-        }
-    ]
-}
+[
+    {
+        "title": "Invocation Spells",
+        "gems": [
+            {
+                "name": "Agate (red-orange)",
+                "spells": [
+                    "Greater Healing (30)",
+                    "Heal Self (20)",
+                    "Heal Wounds (10)",
+                    "Ley Line Restoration (800)",
+                    "Light Healing (6)",
+                    "Purge Other (100)",
+                    "Purge Self (70)",
+                    "Restoration (750)",
+                    "Restore Life (275)",
+                    "Restore Limb (80)",
+                    "Resurrection (650)",
+                    "Super-Healing (70)"
+                ],
+                "costpercarat": "60"
+            },
+            {
+                "name": "Agate (fire)",
+                "spells": [
+                    "Eyes of Thoth (8)",
+                    "Instill Knowledge (15)",
+                    "Memory Bank (12)",
+                    "Oracle (30)",
+                    "Second Sight (20)",
+                    "Sense Evil (2)",
+                    "Sense Magic (4)",
+                    "Tongues (12)",
+                    "Words of Truth (15)"
+                ],
+                "costpercarat": "80"
+            },
+            {
+                "name": "Amber",
+                "spells": [
+                    "Create Wood (10-20)",
+                    "Detect Concealment (6)",
+                    "Ironwood (50+)",
+                    "Mend the Broken (10+)",
+                    "Sustain (12)"
+                ],
+                "costpercarat": "600"
+            },
+            {
+                "name": "Alexandrite",
+                "spells": [
+                    "Eyes of the Wolf (25)",
+                    "Influence the Beast (12)",
+                    "Metamorphosis: Animal (25)",
+                    "Metamorphosis: Human (40)",
+                    "Metamorphosis: Insect (60)",
+                    "Metamorphosis: Mist (250)",
+                    "Metamorphosis: Superior (100)",
+                    "Tame Beast (60)"
+                ],
+                "costpercarat": "3,000"
+            },
+            {
+                "name": "Amethyst",
+                "spells": [
+                    "Carpet of Adhesion (10)",
+                    "Havoc (70)",
+                    "Magic Net (7)",
+                    "Magic Shield (6)",
+                    "Mute (50)",
+                    "Paralysis: Lesser (5)"
+                ],
+                "costpercarat": "400"
+            },
+            {
+                "name": "Andnodite",
+                "spells": [
+                    "Curse of the World Bizarre (100)",
+                    "Curse: Phobia (40)",
+                    "Death Curse (Special)",
+                    "Luck Curse (40)",
+                    "Minor Curse (35)",
+                    "Repel Animals (7)",
+                    "Sickness (50)",
+                    "Sleep (10)",
+                    "Spoil (Food/Water) (30)",
+                    "Transformation (2000)"
+                ],
+                "costpercarat": "500"
+            },
+            {
+                "name": "Aquamarine",
+                "spells": [
+                    "Create Water (15)",
+                    "Swim as the Fish (6)",
+                    "Swim as the Fish: Superior (12)",
+                    "Summon & Control Sea Serpents (350)",
+                    "Water to Wine (40)"
+                ],
+                "costpercarat": "2,000"
+            },
+            {
+                "name": "Chrysophase (quartz)",
+                "spells": [
+                    "Ley Line Transmission (30)",
+                    "Summon Greater Familiar (80)",
+                    "Summon Lesser Being (425)",
+                    "Summon Ley Line Storm (500)",
+                    "Summon Shadow Beast (140)"
+                ],
+                "costpercarat": "450"
+            },
+            {
+                "name": "Citrine",
+                "spells": [
+                    "Astral Hole (120)",
+                    "Astral Projection (10)",
+                    "Commune with Spirits (25)",
+                    "Summon & Control Animals (125)",
+                    "Summon & Control Canines (50)",
+                    "Summon & Control Entity (250)",
+                    "Summon & Control Rodents (70)"
+                ],
+                "costpercarat": "4,000"
+            },
+            {
+                "name": "Diamond",
+                "spells": [
+                    "Armor of Ithan (10)",
+                    "Crushing Fist (12)",
+                    "Fly (15)",
+                    "Fly as the Eagle (25)",
+                    "Impenetrable Wall of Force (600)",
+                    "Invincible Armor (30)",
+                    "Invulnerability (25)",
+                    "Wall of Defense (55)",
+                    "Wards (90)",
+                    "Can also be used to store P.P.E"
+                ],
+                "costpercarat": "15,000"
+            },
+            {
+                "name": "Emerald (green)",
+                "spells": [
+                    "Aura of Power (4)",
+                    "Invisibility: Simple (6)",
+                    "Invisibility: Superior (20)",
+                    "Ley Line Fade (20)",
+                    "Ley Line Ghost (80)",
+                    "Ley Line Phantom (40)",
+                    "Wall of Not (70)",
+                    "Can also be used to store P.P.E"
+                ],
+                "costpercarat": "16,000"
+            },
+            {
+                "name": "Garnet (black)",
+                "spells": [
+                    "Create Golem (700 or 1000)",
+                    "Create Magic Scroll (1000)",
+                    "Create Steel (68)",
+                    "Enchant Weapon (400 to 1000+)",
+                    "Magic Pigeon (20)",
+                    "Winged Flight (35)"
+                ],
+                "costpercarat": "2,500"
+            },
+            {
+                "name": "Garnet (all other colors)",
+                "spells": [
+                    "Distant Voice (10)",
+                    "Frostblade (15)",
+                    "Globe of Silence (20)",
+                    "lee (15)",
+                    "Orb of Cold (6)",
+                    "Shockwave (45)",
+                    "Sonic Blast (25)",
+                    "Thunderclap (4)",
+                    "Wave of Frost (6)"
+                ],
+                "costpercarat": "1,000"
+            },
+            {
+                "name": "Jade",
+                "spells": [
+                    "Climb (3)",
+                    "Escape (8)",
+                    "Familiar Link (55)",
+                    "Life Blast (15)",
+                    "Lifeward (40)",
+                    "Life Source (2+Special)",
+                    "Wall of the Weird (180)"
+                ],
+                "costpercarat": "1,000"
+            },
+            {
+                "name": "Ivory",
+                "spells": [
+                    "Animate/Control Dead (20)",
+                    "Aura of Death (12)",
+                    "Aura of Doom (40)",
+                    "Create Mummy (160)",
+                    "Create Zombie (250)",
+                    "Exorcism (30)",
+                    "Life Drain (25)",
+                    "Turn Dead (6)"
+                ],
+                "costpercarat": "20"
+            },
+            {
+                "name": "Lapis Lazuli",
+                "spells": [
+                    "Annihilate (600)",
+                    "Anti-Magic Cloud (140)",
+                    "Dispel Magic Barriers (20)",
+                    "Negate Magic (30)",
+                    "Sanctum (390)",
+                    "Teleport: Lesser (15)",
+                    "Teleport: Superior (600)",
+                    "Void (700)"
+                ],
+                "costpercarat": "5,000"
+            },
+            {
+                "name": "Malachite",
+                "spells": [
+                    "Amulet (290+)",
+                    "Collapse (70-400)",
+                    "Featherlight (10)",
+                    "Mystic Alarm (5)",
+                    "Mystic Fulcrum (5)",
+                    "Reflection (7)",
+                    "Seal (7)",
+                    "Talisman (500)"
+                ],
+                "costpercarat": "2,500"
+            },
+            {
+                "name": "Opal (black)",
+                "spells": [
+                    "Disharmonize (150)",
+                    "Enemy Mind (100)",
+                    "Id Alter Ego (130)",
+                    "Id Barrier (600)",
+                    "Trance (10)",
+                    "Transferal (50)"
+                ],
+                "costpercarat": "600"
+            },
+            {
+                "name": "Opal (fire)",
+                "spells": [
+                    "Banishment (65)",
+                    "Desiccate the Supernatural (50)",
+                    "Expel Demons (35)",
+                    "Forcebonds (25)",
+                    "Reality Flux (75)",
+                    "Watchguard (10)"
+                ],
+                "costpercarat": "700"
+            },
+            {
+                "name": "Opal (all other colors)",
+                "spells": [
+                    "Armorbane (100)",
+                    "Barrage (15)",
+                    "Deflect (10)",
+                    "Manipulate Objects (2+)",
+                    "Negate Mechanics (20)",
+                    "Ricochet Strike (12)",
+                    "Spinning Blades (20)",
+                    "Targeted Deflection (15)",
+                    "Telekinesis (8)",
+                    "Throwing Stones (5)"
+                ],
+                "costpercarat": "500"
+            },
+            {
+                "name": "Onyx",
+                "spells": [
+                    "Circle of Travel (600)",
+                    "Close Rift (200+)",
+                    "Dimensional Portal (1000)",
+                    "Dimensional Teleport (800)",
+                    "Ley Line Time Capsule (15)",
+                    "Ley Line Time Flux (80)",
+                    "Meteor (75)",
+                    "Mystic Portal (60)",
+                    "Plane Skip (65)",
+                    "Re-Open Gateway (180)",
+                    "Rift to Limbo (160)",
+                    "Rift Teleportation (200)",
+                    "Rift Triangular Defense System (840)",
+                    "Swallowing Rift (300)",
+                    "Swap Places (100)",
+                    "Time Hole (210)",
+                    "Time Slip (20)",
+                    "Warped Space (90)"
+                ],
+                "costpercarat": "1,000"
+            },
+            {
+                "name": "Pearls (black)",
+                "spells": [
+                    "Giant (80)",
+                    "Levitation (5)",
+                    "Magical-Adrenal Rush (45)",
+                    "Reduce Self (20)",
+                    "Superhuman Endurance (12)",
+                    "Superhuman Strength (10)",
+                    "Superhuman Speed (10)"
+                ],
+                "costpercarat": "6,000"
+            },
+            {
+                "name": "Pearls (white)",
+                "spells": [
+                    "Cleanse (6)",
+                    "Fist of Fury (10 or 50)",
+                    "Locate (30)",
+                    "Magic Warrior (60)",
+                    "Phantom Mount (45)",
+                    "Realm of Chaos (70)",
+                    "Swords to Snakes (50)"
+                ],
+                "costpercarat": "5,000"
+            },
+            {
+                "name": "Quartz (clear)",
+                "spells": [
+                    "Blinding Flash (1)",
+                    "Globe of Daylight (2)",
+                    "Chromatic Protection (10)",
+                    "Lantern Light (1)",
+                    "Light Target (6)",
+                    "Lightblade (20)"
+                ],
+                "costpercarat": "60"
+            },
+            {
+                "name": "Quartz (rose)",
+                "spells": [
+                    "Cure Illness (15)",
+                    "Cure Minor Disorders (10)",
+                    "Fortify Against Disease (15)",
+                    "Remove Curse (140)",
+                    "Stone to Flesh (30)"
+                ],
+                "costpercarat": "150"
+            },
+            {
+                "name": "Quartz (ruby)",
+                "spells": [
+                    "Energy Disruption (12)",
+                    "Energy Field (10)",
+                    "Energy Sphere (120)",
+                    "Ignite Fire (6)",
+                    "Shatter (5)",
+                    "Sheltering Force (20)"
+                ],
+                "costpercarat": "300"
+            },
+            {
+                "name": "Quartz (smoky)",
+                "spells": [
+                    "Cloud of Smoke (2)",
+                    "Impervious to Fire (5)",
+                    "Firequake (160)",
+                    "Fire Blossom (20)",
+                    "Fire Globe (40)",
+                    "Fuel Flame (5)",
+                    "Resist Fire (6)"
+                ],
+                "costpercarat": "150"
+            },
+            {
+                "name": "Ruby (deep red)",
+                "spells": [
+                    "Ballistic Fire (25)",
+                    "Circle of Flame (10)",
+                    "Dragon Fire (40)",
+                    "Fireblast (8)",
+                    "Fire Ball (10)",
+                    "Fire Bolt (7)",
+                    "Fire Gout (20)"
+                ],
+                "costpercarat": "19,000"
+            },
+            {
+                "name": "Ruby (blue)",
+                "spells": [
+                    "Be fuddle (6)",
+                    "Charm (12)",
+                    "Compulsion (20)",
+                    "Domination (10)",
+                    "Fear (5)",
+                    "Wisps of Confusion (40)"
+                ],
+                "costpercarat": "18,000"
+            },
+            {
+                "name": "Sapphire (black)",
+                "spells": [
+                    "Cloak of Darkness (6)",
+                    "Null Sphere (220)",
+                    "Shadow Meld (10)",
+                    "Shadow Wall (400)"
+                ],
+                "costpercarat": "20,000"
+            },
+            {
+                "name": "Star Sapphire",
+                "spells": [
+                    "Agony (20)",
+                    "Constrain Being (20)",
+                    "Control/Enslave Entity (80)",
+                    "Death word (70)",
+                    "Ensorcel (400)",
+                    "Soultwist (170)",
+                    "Speed of the Snail (50)"
+                ],
+                "costpercarat": "20,000"
+            },
+            {
+                "name": "Sapphire (all other colors)",
+                "spells": [
+                    "Beat Insurmountable Odds (70)",
+                    "Calling (8)",
+                    "Charismatic Aura (10)",
+                    "Hallucination (30)",
+                    "Horror (10)",
+                    "Protection Circle: Simple (45)",
+                    "Protection Circle: Superior (300)",
+                    "Summon Ally (600)",
+                    "Weight of Duty (10)"
+                ],
+                "costpercarat": "16,000"
+            },
+            {
+                "name": "Tiger Eye",
+                "spells": [
+                    "Blind (6)",
+                    "Mental Blast (15)",
+                    "Mental Shock (30)",
+                    "Mindshatter (130)",
+                    "Sec Aura (6)",
+                    "See in Magic Darkness (125)",
+                    "See the Invisible (4)",
+                    "See Wards (20)"
+                ],
+                "costpercarat": "3,000"
+            },
+            {
+                "name": "Topaz (yellow or brown)",
+                "spells": [
+                    "House of Glass (12)",
+                    "Impervious to Poison (5)",
+                    "Negate Poison/Toxin (5)",
+                    "Purification (Food/Water) (20)"
+                ],
+                "costpercarat": "200"
+            },
+            {
+                "name": "Tourmaline (black)",
+                "spells": [
+                    "Bottomless Pit (100)",
+                    "D-Step (50)",
+                    "Frequency Jamming (15)",
+                    "Implosion Neutralizer (12)",
+                    "Ley Line Shutdown (3000)",
+                    "Ley Line Storm Defense (180)"
+                ],
+                "costpercarat": "120"
+            },
+            {
+                "name": "Turquoise",
+                "spells": [
+                    "Chameleon (6)",
+                    "Concealment (6)",
+                    "Death Trance (1)",
+                    "Power Bolt (20)",
+                    "Power Weapon (35)",
+                    "Speed Weapon (100)"
+                ],
+                "costpercarat": "240"
+            },
+            {
+                "name": "Zircon (clear)",
+                "spells": [
+                    "Breathe without Air (5)",
+                    "Fingers of the Wind (5)",
+                    "Float in Air (5)",
+                    "Heavy Air (200)",
+                    "Wall of Wind (40)",
+                    "Wind Rush (20)"
+                ],
+                "costpercarat": "3,500"
+            },
+            {
+                "name": "Zircon (blue)",
+                "spells": [
+                    "Calm Storms (200)",
+                    "Summon & Control Rain (200)",
+                    "Summon & Control Storm (300)",
+                    "Summon Fog (140)"
+                ],
+                "costpercarat": "1,500"
+            },
+            {
+                "name": "Zircon (red)",
+                "spells": [
+                    "Call Lightning (15)",
+                    "Electric Arc (8)",
+                    "Energize Spell (12+)",
+                    "Energy Bolt (5)",
+                    "Impervious to Energy (20)",
+                    "Lightning Arc (30)",
+                    "Sorcerous Fury (70)",
+                    "Sub-Particle Acceleration (20)"
+                ],
+                "costpercarat": "2,000"
+            },
+            {
+                "name": "Zircon (yellow,brown or gold)",
+                "spells": [
+                    "Apparition (20)",
+                    "Armor Bizarre (15)",
+                    "Fool's Gold (10)",
+                    "Horrific Illusion (10)",
+                    "Illusion Booster (15)",
+                    "Illusion Manipulation (25-60)",
+                    "Illusory Forest (45-90)",
+                    "Illusory Terrain (55-120)",
+                    "Illusory Wall (15 or 30)",
+                    "Mask of Deceit (15)",
+                    "Multiple Image (7)",
+                    "World Bizarre (40)"
+                ],
+                "costpercarat": "300"
+            }
+        ]
+    },
+    {
+        "title": "Non-Invocation Spells",
+        "spells": [
+            {
+                "name": "Biomancy spells",
+                "gems": [
+                    "Amber",
+                    "Opal"
+                ]
+            },
+            {
+                "name": "Cloud Magic spells",
+                "gems": [
+                    "Diamond",
+                    "Sapphire"
+                ]
+            },
+            {
+                "name": "Elemental Air spells",
+                "gems": [
+                    "Diamond",
+                    "Sapphire"
+                ]
+            },
+            {
+                "name": "Elemental Earth spells",
+                "gems": [
+                    "Garnet",
+                    "Onyx"
+                ]
+            },
+            {
+                "name": "Elemental Fire spells",
+                "gems": [
+                    "Ruby",
+                    "Topaz"
+                ]
+            },
+            {
+                "name": "Elemental Water spells",
+                "gems": [
+                    "Emerald",
+                    "Pearl"
+                ]
+            },
+            {
+                "name": "Living Fire Magic spells",
+                "gems": [
+                    "Ruby",
+                    "Topaz"
+                ]
+            },
+            {
+                "name": "Nature Magic spells",
+                "gems": [
+                    "Garnet",
+                    "Onyx"
+                ]
+            },
+            {
+                "name": "Necromancy spells",
+                "gems": [
+                    "Jade",
+                    "Ivory"
+                ]
+            },
+            {
+                "name": "Ocean Magic spells",
+                "gems": [
+                    "Emerald",
+                    "Pearl"
+                ]
+            },
+            {
+                "name": "Spoiling Magic spells",
+                "gems": [
+                    "Jade",
+                    "Ivory"
+                ]
+            },
+            {
+                "name": "Temporal Magic spells",
+                "gems": [
+                    "Quartz",
+                    "Tourmaline"
+                ]
+            }
+        ]
+    }
+]

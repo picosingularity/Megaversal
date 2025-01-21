@@ -30,7 +30,8 @@
         <section>
             <div>
                 <h2 id="the_priciples_of_magic">Test</h2>
-                <div id="json data"></div>
+                <div id="json_data_Invocation_Spells"></div>
+                <div id="json_data_Non-Invocation_Spells"></div>
             </div>
         </section>
         <section id="end"></section>
@@ -51,7 +52,7 @@
             console.log(data);
 
             // filter for invocation spells
-            const filtered = data.filter(
+            var filtered = data.filter(
                 function(data){return data.title == 'Invocation Spells'});
 
             console.log(filtered);
@@ -84,12 +85,35 @@
                 mainUL.appendChild(gemLI);
             }
 
-            // add to html element
-            const div = document.getElementById('json data');
-            div.appendChild(mainUL);
+            //Filter for No-Innvocation Spells
+            filtered = data.filter(
+                function(data){return data.title == 'Non-Invocation Spells'});
 
-            // log
-            console.log(data);
+            console.log(filtered);
+
+            // create secondary list element
+            for (let i = 0; i < filtered[0].spells.length; ++i) {
+                const spellLI = document.createElement('li');
+                spellLI.innerHTML = filtered[0].spells[i].name.bold();
+
+                // create list for supported spells
+                const sGemsUL = document.createElement('ul');
+                for (var n in filtered[0].spells[i].gems) {
+                    const sGemLI = document.createElement('li');
+                    sGemLI.innerHTML = filtered[0].spells[i].gems[n];
+                    sGemsUL.appendChild(sGemLI);
+                }
+
+                // append supported spell ul to gem li
+                spellLI.appendChild(sGemsUL);
+
+                // append gem LI to main UL
+                mainUL.appendChild(spellLI);
+            }
+
+            // add to html element
+            const div = document.getElementById('json_data_Invocation_Spells');
+            div.appendChild(mainUL);
         })
         .catch(error => console.error('Error fetching JSON:', error));
 
